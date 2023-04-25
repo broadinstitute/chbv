@@ -2,15 +2,15 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: CHBV # the website title (if blank, full name will be used instead)
-first_name: Center for Brain Variation
+title: Center for Human Brain Variation # the website title (if blank, full name will be used instead)
+first_name: Center for Human Brain Variation
 middle_name:
 last_name:
 email: brain@broadinstitute.org
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  The Center for Brain Variation at the Broad Institute of MIT and Harvard.
+  The Center for Human Brain Variation at the Broad Institute of MIT and Harvard.
 footer_text: >
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
+keywords: # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -42,7 +42,7 @@ repo_trophies:
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -70,7 +70,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: @BroadBrainCenter
+twitter_username: BroadBrainCenter
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: BroadBrainCenter
 telegram_username: # your Telegram user name
@@ -100,9 +100,7 @@ facebook_id: # your facebook id
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
 
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
-
+contact_note:
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
@@ -154,8 +152,6 @@ disqus_shortname: al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
 
 # -----------------------------------------------------------------------------
 # Collections

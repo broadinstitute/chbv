@@ -1,80 +1,14 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: Steve McCarroll, PhD
+description: Steve is an institute member of the Broad Institute of MIT and Harvard and director of genomic neurobiology for the Broad’s Stanley Center for Psychiatric Research. He is also Dorothy and Milton Flier Professor of Biomedical Science and Genetics in Harvard Medical School’s Department of Genetics and Blavatnik Institute.
+img: assets/img/steve_mccarroll.jpg
 importance: 1
-category: work
+category: Center leadership
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Steve is an institute member of the Broad Institute of MIT and Harvard and director of genomic neurobiology for the Broad’s Stanley Center for Psychiatric Research. He is also Dorothy and Milton Flier Professor of Biomedical Science and Genetics in Harvard Medical School’s Department of Genetics and Blavatnik Institute.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Steve McCarroll and the scientists in his lab use genetics, biology, and single-cell genomics to understand natural variation in the human brain and the ways in which genes and genetic variation sculpt the brain’s functions and vulnerabilities.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+The lab develops new molecular and computational approaches to study variation in the genome and the brain, then applies them to try to understand brain function and disorders. A key goal in the lab’s technology efforts is to develop ways to turn more areas of brain biology into “big data” problems in which previously hidden aspects of biology are made visible to analysis. A key goal in the lab’s computational work is to develop conceptually new ways to analyze the data sets such approaches generate, with the focus on generating biologically meaningful insights. Much work in the lab tries to uncover the key molecular and cellular events underlying schizophrenia, Huntington’s disease and other brain illnesses. The hope is that such discoveries will lead to new, innovative therapeutic approaches.

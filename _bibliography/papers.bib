@@ -1,6 +1,56 @@
 ---
 ---
 
+@article{WELLS2023312,
+  title = {Natural variation in gene expression and viral susceptibility revealed by neural progenitor cell villages},journal = {Cell Stem Cell},
+  volume = {30},
+  number = {3},
+  pages = {312-332.e13},
+  year = {2023},
+  issn = {1934-5909},
+  doi = {https://doi.org/10.1016/j.stem.2023.01.010},
+  url = {https://www.sciencedirect.com/science/article/pii/S1934590923000358},
+  author = {Michael F. Wells and James Nemesh and Sulagna Ghosh and Jana M. Mitchell and Max R. Salick and Curtis J. Mello and Daniel Meyer and Olli Pietilainen and Federica Piccioni and Ellen J. Guss and Kavya Raghunathan and Matthew Tegtmeyer and Derek Hawes and Anna Neumann and Kathleen A. Worringer and Daniel Ho and Sravya Kommineni and Karrie Chan and Brant K. Peterson and Joseph J. Raymond and John T. Gold and Marco T. Siekmann and Emanuela Zuccaro and Ralda Nehme and Ajamete Kaykas and Kevin Eggan and Steven A. McCarroll},
+  keywords = {cell villages, neural progenitor cells, Neurogenin-2, Zika virus, neurodevelopmental disorders, CRISPR-Cas9 screen, proliferation, CACHD1},
+  abstract = {Summary
+  Human genome variation contributes to diversity in neurodevelopmental outcomes and vulnerabilities; recognizing the underlying molecular and cellular mechanisms will require scalable approaches. Here, we describe a “cell village” experimental platform we used to analyze genetic, molecular, and phenotypic heterogeneity across neural progenitor cells from 44 human donors cultured in a shared in vitro environment using algorithms (Dropulation and Census-seq) to assign cells and phenotypes to individual donors. Through rapid induction of human stem cell-derived neural progenitor cells, measurements of natural genetic variation, and CRISPR-Cas9 genetic perturbations, we identified a common variant that regulates antiviral IFITM3 expression and explains most inter-individual variation in susceptibility to the Zika virus. We also detected expression QTLs corresponding to GWAS loci for brain traits and discovered novel disease-relevant regulators of progenitor proliferation and differentiation such as CACHD1. This approach provides scalable ways to elucidate the effects of genes and genetic variation on cellular phenotypes.},
+  pdf={wells_et_al.cell_stem_cell.2023.pdf},
+  altmetric={248277},
+  preview={wells_et_al.cell_stem_cell.2023.jpg}
+}
+
+@article {Fleming791699,
+        author = {Stephen J. Fleming and Mark D. Chaffin and Alessandro Arduini and Amer-Denis Akkad and Eric Banks and John C. Marioni and Anthony A. Philippakis and Patrick T. Ellinor and Mehrtash Babadi},
+        title = {Unsupervised removal of systematic background noise from droplet-based single-cell experiments using CellBender},
+        elocation-id = {791699},
+        year = {2022},
+        doi = {10.1101/791699},
+        publisher = {Cold Spring Harbor Laboratory},
+        abstract = {Droplet-based single-cell assays, including scRNA-seq, snRNA-seq, and CITE-seq, produce a significant amount of background noise counts, the hallmark of which is non-zero counts in cell-free droplets and off-target gene expression in unexpected cell types. The presence of such systematic background noise is a potential source of batch effect and spurious differential gene expression. Here we develop a deep generative model for noise-contaminated data that is structured to reflect the phenomenology of background noise generation in droplet-based single-cell assays. The proposed model successfully distinguishes cell-containing from cell-free droplets without supervision, learns the profile of background noise, and retrieves a noise-free quantification in an end-to-end fashion. We present a scalable and robust implementation of our method as a module in the open-source software package CellBender. We show that CellBender operates close to the theoretically optimal denoising limit in simulated datasets, and present extensive evaluations using real datasets and experimental benchmarks drawn from different tissues, protocols, and modalities to show that CellBender significantly improves the agreement of droplet-based single-cell data with established gene expression patterns, and that the learned background noise profile provides evidence for degraded or uncaptured cell types.Competing Interest StatementDr. Akkad is an employee of Bayer US LLC (a subsidiary of Bayer AG) and may own stock in Bayer AG. Dr. Philippakis is employed as a Venture Partner at Google Ventures, and he is also supported by a grant from Bayer AG to the Broad Institute focused on machine learning for clinical trial design. Dr. Ellinor is supported by a grant from Bayer AG to the Broad Institute focused on the genetics and therapeutics of cardiovascular diseases. Dr. Ellinor has also served on advisory boards or consulted for Bayer AG, Quest Diagnostics, MyoKardia, and Novartis. The remaining authors declare no competing interests.},
+        URL = {https://www.biorxiv.org/content/early/2022/07/12/791699},
+        eprint = {https://www.biorxiv.org/content/early/2022/07/12/791699.full.pdf},
+        journal = {bioRxiv},
+  pdf={fleming_et_al.biorxiv.2022.pdf},
+  altmetric={248277},
+  preview={fleming_et_al.biorxiv.2022.png}
+}
+
+@article {Russell2023.04.01.535228,
+        author = {Andrew J. C. Russell and Jackson A. Weir and Naeem M. Nadaf and Matthew Shabet and Vipin Kumar and Sandeep Kambhampati and Ruth Raichur and Giovanni J. Marrero and Sophia Liu and Karol S. Balderrama and Charles R. Vanderburg and Vignesh Shanmugam and Luyi Tian and Catherine J. Wu and Charles H. Yoon and Evan Z. Macosko and Fei Chen},
+        title = {Slide-tags: scalable, single-nucleus barcoding for multi-modal spatial genomics},
+        elocation-id = {2023.04.01.535228},
+        year = {2023},
+        doi = {10.1101/2023.04.01.535228},
+        publisher = {Cold Spring Harbor Laboratory},
+        abstract = {Recent technological innovations have enabled the high-throughput quantification of gene expression and epigenetic regulation within individual cells, transforming our understanding of how complex tissues are constructed. Missing from these measurements, however, is the ability to routinely and easily spatially localise these profiled cells. We developed a strategy, Slide-tags, in which single nuclei within an intact tissue section are {\textquoteleft}tagged{\textquoteright} with spatial barcode oligonucleotides derived from DNA-barcoded beads with known positions. These tagged nuclei can then be used as input into a wide variety of single-nucleus profiling assays. Application of Slide-tags to the mouse hippocampus positioned nuclei at less than 10 micron spatial resolution, and delivered whole-transcriptome data that was indistinguishable in quality from ordinary snRNA-seq. To demonstrate that Slide-tags can be applied to a wide variety of human tissues, we performed the assay on brain, tonsil, and melanoma. We revealed cell-type-specific spatially varying gene expression across cortical layers and spatially contextualised receptor-ligand interactions driving B-cell maturation in lymphoid tissue. A major benefit of Slide-tags is that it is easily adaptable to virtually any single-cell measurement technology. As proof of principle, we performed multiomic measurements of open chromatin, RNA, and T-cell receptor sequences in the same cells from metastatic melanoma. We identified spatially distinct tumour subpopulations to be differentially infiltrated by an expanded T-cell clone and undergoing cell state transition driven by spatially clustered accessible transcription factor motifs. Slide-tags offers a universal platform for importing the compendium of established single-cell measurements into the spatial genomics repertoire.Competing Interest StatementE.Z.M. and F.C. are academic founders of Curio Bioscience. F.C., E.Z.M., A.J.C.R., J.A.W., N.M.N., and V.K. are listed as inventors on a patent application related to the work.},
+        URL = {https://www.biorxiv.org/content/early/2023/04/03/2023.04.01.535228},
+        eprint = {https://www.biorxiv.org/content/early/2023/04/03/2023.04.01.535228.full.pdf},
+        journal = {bioRxiv},
+  pdf={russell_et_al.biorxiv.2023.pdf},
+  altmetric={248277},
+  preview={russell_et_al.biorxiv.2023.png}
+}
+
 @string{aps = {American Physical Society,}}
 
 @book{einstein1956investigations,
