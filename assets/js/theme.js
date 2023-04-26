@@ -16,6 +16,12 @@ let setTheme = (theme) =>  {
 
   if (theme) {
     document.documentElement.setAttribute("data-theme", theme);
+    // Update logos
+    if (theme == "dark") {
+      $("#logo").attr("src","/chbv/assets/img/logo_light.png");
+    } else {
+      $("#logo").attr("src","/chbv/assets/img/logo_dark.png");
+    }
   }
   else {
     document.documentElement.removeAttribute("data-theme");
