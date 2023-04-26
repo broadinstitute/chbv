@@ -5,7 +5,7 @@ permalink: /team/
 nav: true
 nav_order: 2
 horizontal: false
-display_categories: [Center leadership, Co-investigators]
+display_categories: [Center leadership, Co-investigators, Project Management and Operations, Computational Analysis, Data Generation]
 ---
 
 <!-- pages/projects.md -->

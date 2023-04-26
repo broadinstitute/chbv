@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Steve McCarroll, PhD
-description: Steve is an institute member of the Broad Institute of MIT and Harvard and director of genomic neurobiology for the Broad’s Stanley Center for Psychiatric Research. He is also Dorothy and Milton Flier Professor of Biomedical Science and Genetics in Harvard Medical School’s Department of Genetics and Blavatnik Institute.
+email: smccarro@broadinstitute.org
+description: Steve is an institute member of the Broad Institute of MIT and Harvard and director of genomic neurobiology for the Broad’s Stanley Center for Psychiatric Research. He is also Dorothy and Milton Flier Professor ...
 img: assets/img/steve_mccarroll.jpg
 importance: 1
 category: Center leadership
