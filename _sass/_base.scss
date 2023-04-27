@@ -29,6 +29,39 @@ html {
     max-width: 20vw;
   }
 }
+
+
+.bio {
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+.my_contact {
+  section {
+    display: flex;
+    flex-wrap: row wrap;
+  }
+  article {
+    display: flex;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    //background: aqua;
+    flex: 350px;
+  }
+
+  article img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+article:nth-of-type(2) {
+  flex: 1 200px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+}
+
 // Typography
 
 p,
