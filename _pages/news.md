@@ -6,4 +6,7 @@ nav: true
 nav_order: 6
 ---
 
-blah blah blah
+<!-- pages/news.md -->
+<div>
+{% include news.html %}
+</div>

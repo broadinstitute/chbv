@@ -6,13 +6,13 @@
               <table class="table table-sm table-borderless">
               {%- assign news = site.news | reverse -%}
               {% if site.news.limit %}
-              {% assign news_limit = site.news.limit %}
+                {% assign news_limit = site.news.limit %}
               {% else %}
-              {% assign news_limit = news_size %}
+                {% assign news_limit = news_size %}
               {% endif %}
               {% for item in news limit: news_limit %}
                 <tr>
-                  <th scope="row">{{ item.date | date: "%b %-d, %Y" }}</th>
+                  <th scope="row">{{ item.date | date: "%m/%d/%Y" }}</th>
                   <td>
                     {% if item.inline -%}
                       {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
