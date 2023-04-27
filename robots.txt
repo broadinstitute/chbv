@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://nrockweiler.github.io/chbv/sitemap.xml
+Sitemap: https://nrockweiler.github.io/chbv//sitemap.xml
