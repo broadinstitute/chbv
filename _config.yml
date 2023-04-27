@@ -46,7 +46,7 @@ rss_icon: false
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 
 # Dimensions
 max_width: 800px
@@ -67,7 +67,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: BroadBrainCenter
+twitter_username: BroadBrainCtr
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: BroadBrainCenter
 telegram_username: # your Telegram user name
