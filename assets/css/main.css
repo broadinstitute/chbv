@@ -100,6 +100,29 @@ body.sticky-bottom-footer {
 /*******************************************************************************
  * Styles for the base elements of the theme.
  ******************************************************************************/
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+article {
+  display: flex;
+  flex-flow: row;
+  margin-bottom: 100px;
+}
+
+article div:nth-child(2) {
+  margin-left: 20px;
+}
+
+article img {
+  max-width: 20vw;
+}
+
 p,
 h1,
 h2,
@@ -144,6 +167,34 @@ table.table a:hover:after :not(.nav-item.dropdown) {
 figure,
 img {
   max-width: 90vw;
+}
+
+body {
+  margin: 0;
+}
+
+.hero {
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/background.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.hero-inner {
+  width: 50%;
+}
+
+.hero h1 {
+  font-size: 5em;
+  margin-top: 0;
+  margin-bottom: 0.5em;
 }
 
 blockquote {
@@ -371,6 +422,10 @@ footer.sticky-bottom {
   border-top: 1px solid var(--global-divider-color);
   padding-top: 40px;
   padding-bottom: 40px;
+  font-size: 1.05rem;
+}
+
+.copywrite {
   font-size: 0.9rem;
 }
 
