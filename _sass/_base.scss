@@ -6,26 +6,28 @@ html {
   scroll-behavior: smooth;
 }
 
-section {
-  display: flex;
-  flex-direction: column;
-}
-
-article {
-  display: flex;
-  flex-flow: row;
-  margin-bottom: 100px;
-}
-
-article div:nth-child(1) {
-}
-
-article div:nth-child(2) {
-  margin-left: 20px;
-}
-
-article img {
-  max-width: 20vw;
+.landing_page {
+  section {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  article {
+    display: flex;
+    flex-flow: row;
+    margin-bottom: 100px;
+  }
+  
+  article div:nth-child(1) {
+  }
+  
+  article div:nth-child(2) {
+    margin-left: 20px;
+  }
+  
+  article img {
+    max-width: 20vw;
+  }
 }
 // Typography
 
