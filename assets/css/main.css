@@ -551,29 +551,29 @@ footer.sticky-bottom {
   text-decoration: none;
 }
 
-.projects a {
+.team a {
   text-decoration: none;
 }
-.projects a:hover .card-title {
+.team a:hover .card-title {
   color: var(--global-theme-color);
 }
-.projects .card img {
+.team .card img {
   width: 100%;
 }
-.projects .card-item {
+.team .card-item {
   width: auto;
   margin-bottom: 10px;
 }
-.projects .card-item .row {
+.team .card-item .row {
   display: flex;
   align-items: center;
 }
-.projects .grid-sizer,
-.projects .grid-item {
+.team .grid-sizer,
+.team .grid-item {
   width: 250px;
   margin-bottom: 10px;
 }
-.projects h2.category {
+.team h2.category {
   color: var(--global-divider-color);
   border-bottom: 1px solid var(--global-divider-color);
   padding-top: 0.5rem;
