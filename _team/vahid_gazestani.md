@@ -2,7 +2,7 @@
 layout: person
 title: Vahid Gazestani, PhD
 email: vgazesta@broadinstitute.org
-description: 
+description: Vahid is a Computational Scientist working on integration of genomics and genetics datasets to infer biological networks within and between cells under normal and disease conditions. Vahid received ...
 img: assets/img/vahid_gazestani.jpg
 importance: 2
 category: Computational Analysis

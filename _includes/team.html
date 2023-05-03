@@ -1,22 +1,22 @@
-<!-- _includes/projects.html -->
+<!-- _includes/team.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  {% if project.redirect -%}
-  <a href="{{ project.redirect }}">
+  {% if team.redirect -%}
+  <a href="{{ team.redirect }}">
     {%- else -%}
-    <a href="{{ project.url | relative_url }}">
+    <a href="{{ team.url | relative_url }}">
       {%- endif %}
       <div class="card hoverable">
-        {%- if project.img %}
+        {%- if team.img %}
         {%- include figure.html
-          path=project.img
-          alt="project thumbnail" -%}
+          path=team.img
+          alt="team thumbnail" -%}
         {%- endif %}
         <div class="card-body">
-          <h2 class="card-title">{{ project.title }}</h2>
-          <p class="card-text"><i class="fa fa-envelope"></i> {{ project.email }}</p>
-          <p class="card-text">{{ project.description }} </p>
-          <p class="card-text"><a href="{{ project.url | relative_url }}/">Read more <i class="fa fa-angle-double-right"></i></a></p>
+          <h2 class="card-title">{{ team.title }}</h2>
+          <p class="card-text"><i class="fa fa-envelope"></i> {{ team.email }}</p>
+          <p class="card-text">{{ team.description }} </p>
+          <p class="card-text"><a href="{{ team.url | relative_url }}/">Read more <i class="fa fa-angle-double-right"></i></a></p>
           <div class="row ml-1 mr-1 p-0">
           </div>
         </div>
