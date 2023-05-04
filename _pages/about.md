@@ -11,7 +11,7 @@ nav_order: 1
 The human brain is among the most complex biological objects known: more than 100 billion highly specialized cells, connected in specific ways, cooperate to engage in problem-solving, observation, empathy, insight, and direction of the human body. **To fully understand the brain’s function and vulnerabilities, we must learn about the biological diversity across people.**
 
 An inventory of the human brain’s cellular components and their associated molecular repertoires – a cell atlas – will provide a powerfully enabling platform for translational neuroscience.
-<img src="/chbv/assets/img/brain_diversity_banner.jpeg" alt="Silhouettes of multiple people" height="100%" width="100%" display="block">
+<img src="/assets/img/brain_diversity_banner.jpeg" alt="Silhouettes of multiple people" height="100%" width="100%" display="block">
 
 ## Mission
 The mission of the Center is to:
@@ -20,7 +20,7 @@ The mission of the Center is to:
 - Expand our understanding of the ways the human brain varies in both healthy and neurological conditions and **advance** psychiatric research
 - **Engage** in outreach activities with a variety of organizations serving underrepresented groups
 
-<img src="/chbv/assets/img/neon_brain_sign.jpg" alt="Neon sign of multiple people" height="100%" width="100%" display="block">
+<img src="/assets/img/neon_brain_sign.jpg" alt="Neon sign of multiple people" height="100%" width="100%" display="block">
 
 ## Research overview
 The Center's research goals are to:
@@ -28,14 +28,14 @@ The Center's research goals are to:
 - Characterize the biological variation in the atlas
 - Use the biological variation to reveal and understand brain function and dysfunction.
 
-Please see our [research page](/chbv/research/) for more information.
+Please see our [research page](/research/) for more information.
 
 
-<img src="/chbv/assets/img/BroadStockImage023.jpg" alt="Scientist looking at sequencing flow cell" height="100%" width="100%" display="block">
+<img src="/assets/img/BroadStockImage023.jpg" alt="Scientist looking at sequencing flow cell" height="100%" width="100%" display="block">
 ## Who we are
-We are based at the [Broad Institute of MIT & Harvard](https://www.broadinstitute.org/).  Our interdisciplinary [team](/chbv/team/) of neuroscientists, human geneticists, computational biologists, and software engineers is led by [Steve McCarroll](/chbv/team/steve_mccarroll/), [Evan Macosko](/chbv/team/evan_macosko/), and [Kiku Ichihara](/chbv/team/kiku_ichihara/). The Center is funded by the [NIH BRAIN initiative](https://braininitiative.nih.gov/). 
+We are based at the [Broad Institute of MIT & Harvard](https://www.broadinstitute.org/).  Our interdisciplinary [team](/team/) of neuroscientists, human geneticists, computational biologists, and software engineers is led by [Steve McCarroll](/team/steve_mccarroll/), [Evan Macosko](/team/evan_macosko/), and [Kiku Ichihara](/team/kiku_ichihara/). The Center is funded by the [NIH BRAIN initiative](https://braininitiative.nih.gov/). 
 
-<img src="/chbv/assets/img/BroadStockImage021.jpg" alt="People talking and writing on a wall" height="100%" width="100%" display="block">
+<img src="/assets/img/BroadStockImage021.jpg" alt="People talking and writing on a wall" height="100%" width="100%" display="block">
 
 ## Commitment to diversity, equity & inclusion
 ### In our research
@@ -54,4 +54,4 @@ Our Center is committed to assembling a team with diverse perspectives, while fo
 - Innovation 
 - Exploration 
 
-<img src="/chbv/assets/img/hands_on_table.jpg" alt="Multiple hands on table" height="100%" width="100%" display="block">
+<img src="/assets/img/hands_on_table.jpg" alt="Multiple hands on table" height="100%" width="100%" display="block">

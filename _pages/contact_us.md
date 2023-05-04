@@ -22,6 +22,6 @@ nav_order: 9
   </article>
 
   <article>
-      <img src="/chbv/assets/img/stanley_center.peter_vanderwarker.lower_res.jpg">
+      <img src="/assets/img/stanley_center.peter_vanderwarker.lower_res.jpg">
   </article>
 </section>

@@ -7,7 +7,7 @@ nav: true
 nav_order: 7
 ---
 
-<img src="/chbv/assets/img/outreach.hands_piled_together.jpg" alt="Handles piled together" height="100%" width="100%" display="block">
+<img src="/assets/img/outreach.hands_piled_together.jpg" alt="Handles piled together" height="100%" width="100%" display="block">
 
 The Center for Human Brain Variation is committed to assembling a project team with diverse perspectives, while fostering an inclusive environment where all team members flourish.  This is essential for a project in which the analysis of biological variation and diversity is a central theme.  Our Center aims to reach a wide community of scientists in a variety of different ways including:
 - Provide elementary through undergraduate level students from surrounding communities with resources (such as mentoring, lab tours, educational materials) to get them excited about science and pursue careers in scientific research. 
