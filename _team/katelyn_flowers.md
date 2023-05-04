@@ -2,7 +2,7 @@
 layout: person
 title: Katelyn Flowers
 email: kflowers@broadinstitute.org
-description: Katelyn is a Project Manager in the Stanley Center for Psychiatric Research. As the project manager for the Macosko lab, she has worked on various brain sequencing projects including BICCN grants: ...
+description: "Katelyn is a Project Manager in the Stanley Center for Psychiatric Research. As the project manager for the Macosko lab, she has worked on various brain sequencing projects including BICCN grants: ..."
 img: assets/img/katelyn_flowers.jpg
 importance: 2
 category: Project Management and Operations
