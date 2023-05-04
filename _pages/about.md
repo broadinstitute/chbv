@@ -7,50 +7,43 @@ nav: true
 nav_order: 1
 ---
 
-## Our mission
-Human biology is a range, not a point measurement. The mission of the Center for Human Brain Cell Variation is to understand the cell-type-specific mechanisms and tissue-level biological principles that generate inter-individual variation in brain biology. We believe that inter-individual variation must be engaged while building a human cell atlas: variation allows us to go beyond descriptive catalogs to insights about how cell-type-specific biological processes fluctuate, co-fluctuate and accommodate one another, and how common genetic effects on brain vulnerability manifest in tissues. By addressing variation thoughtfully and purposefully, we hope to:
+## Motivation
+The human brain is among the most complex biological objects known: more than 100 billion highly specialized cells, connected in specific ways, cooperate to engage in problem-solving, observation, empathy, insight, and direction of the human body. **To fully understand the brain’s function and vulnerabilities, we must learn about the biological diversity across people.**
 
- - Create an appropriately broad and flexible definition of each cell type in a human cell atlas
- - Distinguish constant from dynamic features of each cell type
- - Relate cellular and molecular variation in brain tissue to abundant existing data on brain variation in living people, such as from structural imaging and human genetics
- - Understand how genetic variation acts through tissues to shape variation in human brain phenotypes, strengthening the interface between human genetics and neurobiology
+An inventory of the human brain’s cellular components and their associated molecular repertoires – a cell atlas – will provide a powerfully enabling platform for translational neuroscience.
 
-In this work, we will leverage new technologies in single-cell and spatial genomics, including many developed in our labs, to construct an Atlas of Human Brain Cell Variation. By making molecular measurements of cell types across many people, in their spatial contexts, and including measurements across the course of postnatal development, our Atlas will simultaneously inform our understandings of:
+## Mission
+The mission of the Center is to:
+- **Create** an essential atlas of the profound variation in human brain biology using the latest single-cell and spatial omics technologies
+- **Share** this data resource with the scientific and public communities
+- To expand our understanding of the ways the human brain varies in both healthy and neurological conditions and **advance** psychiatric research
+- **Engage** in outreach activities with a variety of organizations serving underrepresented groups.
 
- - The common, shared cellular features that make all of our brains work
- - The ways in which these features vary and co-vary across individuals
- - The relationship of this biological variation to genes, alleles and biological function
- - The tissue-based mechanisms of genetic risk for neurodevelopmental and neuropsychiatric disorders
+## Research overview
+The Center's research goals are to:
+- Construct an atlas of human brain cell variation using a large, diverse set of brain donors
+- Characterize the biological variation in the atlas
+- Use the biological variation to reveal and understand brain function and dysfunction.
+
+Please see our [research page](/chbv/research/) for more information.
 
 ## Who we are
-The Center for Human Brain Variation is funded by the NIH BRAIN initiative. ...BRAIN Initiative Cell Atlas Network (BICAN). Primary objectives are:
+We are based at the [Broad Institute of MIT & Harvard](https://www.broadinstitute.org/).  Our interdisciplinary [team](/chbv/team/) of neuroscientists, human geneticists, computational biologists, and software engineers is led by [Steve McCarroll](/chbv/team/steve_mccarroll/), [Evan Macosko](/chbv/team/evan_macosko/), and [Kiku Ichihara](/chbv/team/kiku_ichihara/). The Center is funded by the [NIH BRAIN initiative](https://braininitiative.nih.gov/). 
 
- - To provide the research community with comprehensive reference brain cell atlases.
- - .....
+## Commitment to diversity, equity & inclusion
+### In our research
+Our atlas of human brain variation aims to capture the diversity of normal human brain biology in a suitably inclusive way. Our objective is to sample variation broadly, not to compare groups. A pitfall we must avoid is to appear to make (or to enable others to make) conclusions about any groups from what will likely be a small sample from a large, neurodiverse population.
 
-We are based at the Broad Institute of MIT & Harvard. Our center is led by Steve McCarroll, Evan Macosko, and Kiku Ichihara.
+We believe the point of including a diverse set of donors is not to compare groups, but rather to define the range of normal human brain biology in a suitably inclusive way. This ethic will be reflected in the analyses we do and the analyses we choose not to do.
 
- 
+### In our team
+Our Center is committed to assembling a project team with diverse perspectives, while fostering an inclusive environment where all team members flourish.
 
-Additional co-investigators include: 
- - Paola Arlotta
- - Mehrtash Babadi
- - Randy Buckner
- - Fei Chen
- - Elise Robinson
- - Charles Vanderburg
- - Joshua Welch
- - Program overview
-
-Meet the rest of our team!
-
-## DEIA
-
-## Core values
-
- 
-
-
-
-
+### Our core values
+- Inclusivity 
+- Collaborative 
+- Community 
+- Integrity 
+- Innovation 
+- Exploration 
 
