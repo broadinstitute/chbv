@@ -2,12 +2,15 @@
 layout: page
 permalink: /research/
 title: Research
+title_long: Research
 nav: true
 nav_order: 3
 ---
 
 ## BICAN
 The human brain is among the most complex biological objects known: more than 100 billion highly specialized cells, connected in specific ways, cooperate to engage in problem-solving, observation, empathy, insight, and direction of the human body. An inventory of the human brain’s cellular components and their associated molecular repertoires – a cell atlas – could provide a powerfully enabling platform for translational neuroscience. And yet, one of the most striking aspects of human experience involves variation in brain function: no two individuals think or behave in the same way. This diversity drives humanity’s creativity and resourcefulness; it also shapes each person’s vulnerability to neurodevelopmental, neuropsychiatric and neurological disorders, through tissue-resident mechanisms that are still unknown but critical to understand. To fully understand the brain’s function and vulnerabilities, we must know and be instructed by its biological diversity across people.
+
+<img src="/chbv/assets/img/neuron3.webp" alt="Artist rendering of a network of neurons" height="100%" width="100%" display="block">
 
 In this work, we will leverage new technologies in single-cell and spatial genomics, including many developed in our labs, to construct an Atlas of Human Brain Cell Variation. By making molecular measurements of cell types across many people, in their spatial contexts, and including measurements across the course of postnatal development, our Atlas will simultaneously inform our understandings of:
 
@@ -40,11 +43,12 @@ Use human brain biological variation to reveal and understand biological functio
 The successful completion of this work will deliver an essential data resource for cellular, molecular, genetic and translational neuroscience – while expanding our understanding of the ways the human brain varies from person to person and providing powerful new ways to learn from inter-individual variation in brain phenotypes.
 
 ## Assays
-### Chromium Single Cell Gene Expression
-Chromium Single Cell Gene Expression is a droplet-based technology that captures the transcriptional gene expression profiles of thousands of individual cells in parallel.
+### 10X Genomics Chromium Single Cell Gene Expression
+[The 10X Chromium Single Cell Gene Expression assay](https://www.10xgenomics.com/products/single-cell-gene-expression) is a droplet-based technology that captures the transcriptional gene expression profiles of thousands of individual cells in parallel.
 
-### 10X Genomics Single-cell Multiome ATAC + Gene Expression
-The 10X Genomics Single-cell Multiome ATAC + Gene Expression assay simultaneously captures transcriptional gene expression profiles and regions of open chromatin from the same cell.
 
-### Slide-seq
-Slide-seq is enables the high-resolution capture of RNA molecules from a slice of tissue while retaining their spatial information. 
+### 10X Genomics Chromium Single Cell Multiome ATAC + Gene Expression
+[The 10X Genomics Chromium Single cell Multiome ATAC + Gene Expression assay](https://www.10xgenomics.com/products/single-cell-multiome-atac-plus-gene-expression) simultaneously captures transcriptional gene expression profiles and regions of open chromatin from the same cell.
+
+### Slide-tags
+[Slide-tags](https://www.biorxiv.org/content/10.1101/2023.04.01.535228v1) enables the high-resolution capture of RNA molecules from a slice of tissue while retaining their spatial information. 
