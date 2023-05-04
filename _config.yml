@@ -163,6 +163,9 @@ collections:
   team:
     output: true
     permalink: /team/:path/
+  jobs:
+    output: true
+    permalink: /jobs/:path/
 
 news:
   enabled: true

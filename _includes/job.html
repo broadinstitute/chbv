@@ -1,0 +1,22 @@
+<!-- _includes/job.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  {% if job.redirect -%}
+  <a href="{{ job.redirect }}">
+    {%- else -%}
+    <a href="{{ job.url | relative_url }}">
+      {%- endif %}
+      <div class="card hoverable">
+        {%- if job.img %}
+        {%- include figure.html
+          path=job.img
+          alt="job thumbnail" -%}
+        {%- endif %}
+        <div class="card-body">
+          <h2 class="card-title">{{ job.title }}</h2>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
