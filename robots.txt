@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://brain.broadinstitute.org/chbv//sitemap.xml
+Sitemap: https://brain.broadinstitute.org//sitemap.xml
