@@ -17,8 +17,8 @@ An inventory of the human brain’s cellular components and their associated mol
 The mission of the Center is to:
 - **Create** an essential atlas of the profound variation in human brain biology using the latest single-cell and spatial omics technologies
 - **Share** this data resource with the scientific and public communities
-- To expand our understanding of the ways the human brain varies in both healthy and neurological conditions and **advance** psychiatric research
-- **Engage** in outreach activities with a variety of organizations serving underrepresented groups.
+- Expand our understanding of the ways the human brain varies in both healthy and neurological conditions and **advance** psychiatric research
+- **Engage** in outreach activities with a variety of organizations serving underrepresented groups
 
 <img src="/chbv/assets/img/neon_brain_sign.jpg" alt="Neon sign of multiple people" height="100%" width="100%" display="block">
 
@@ -39,12 +39,12 @@ We are based at the [Broad Institute of MIT & Harvard](https://www.broadinstitut
 
 ## Commitment to diversity, equity & inclusion
 ### In our research
-Our atlas of human brain variation aims to capture the diversity of normal human brain biology in a suitably inclusive way. Our objective is to sample variation broadly, not to compare groups. A pitfall we must avoid is to appear to make (or to enable others to make) conclusions about any groups from what will likely be a small sample from a large, neurodiverse population.
+Our atlas of human brain variation aims to capture the diversity of normal human brain biology in a suitably inclusive way. Our objective is to sample variation broadly, not to compare groups. A pitfall we must avoid is to appear to make (or enable others to make) conclusions about any groups from what will likely be a small sample from a large, neurodiverse population.
 
-We believe the point of including a diverse set of donors is not to compare groups, but rather to define the range of normal human brain biology in a suitably inclusive way. This ethic will be reflected in the analyses we do and the analyses we choose not to do.
+We believe that the point of including a diverse set of donors is not to compare groups, but rather to define the range of normal human brain biology in a suitably inclusive way. This ethic will be reflected in the analyses we do and the analyses we choose not to do.
 
 ### In our team
-Our Center is committed to assembling a project team with diverse perspectives, while fostering an inclusive environment where all team members flourish.
+Our Center is committed to assembling a team with diverse perspectives, while fostering an inclusive environment where all members flourish.
 
 ### Our core values
 - Inclusivity 

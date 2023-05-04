@@ -7,32 +7,27 @@ nav: true
 nav_order: 3
 ---
 
-The human brain is among the most complex biological objects known: more than 100 billion highly specialized cells, connected in specific ways, cooperate to engage in problem-solving, observation, empathy, insight, and direction of the human body. An inventory of the human brain’s cellular components and their associated molecular repertoires – a cell atlas – could provide a powerfully enabling platform for translational neuroscience. And yet, one of the most striking aspects of human experience involves variation in brain function: no two individuals think or behave in the same way. This diversity drives humanity’s creativity and resourcefulness; it also shapes each person’s vulnerability to neurodevelopmental, neuropsychiatric and neurological disorders, through tissue-resident mechanisms that are still unknown but critical to understand. To fully understand the brain’s function and vulnerabilities, we must know and be instructed by its biological diversity across people.
+The human brain is among the most complex biological objects known: more than 100 billion highly specialized cells, connected in specific ways, cooperate to engage in problem-solving, observation, empathy, insight, and direction of the human body. And yet, one of the most striking aspects of human experience involves variation in brain function: no two individuals think or behave in the same way. This diversity drives humanity’s creativity and resourcefulness; it also shapes each person’s vulnerability to neurodevelopmental, neuropsychiatric and neurological disorders, through mechanisms that are still unknown but critical to understand. To fully understand the brain’s function and vulnerabilities, we must know and be instructed by its biological diversity across people.
 
 <img src="/chbv/assets/img/neuron3.webp" alt="Artist rendering of a network of neurons" height="100%" width="100%" display="block">
 
-In this work, we will leverage new technologies in single-cell and spatial genomics, including many developed in our labs, to construct an Atlas of Human Brain Cell Variation. By making molecular measurements of cell types across many people, in their spatial contexts, and including measurements across the course of postnatal development, our Atlas will simultaneously inform our understandings of:
+In this work, we will leverage new technologies in single-cell and spatial genomics, including many developed in our labs, to construct an atlas of human brain cell variation. By making molecular measurements of cell types across many people, in their spatial contexts, and including measurements across the course of postnatal development, our atlas will simultaneously inform our understandings of:
 
  - The common, shared cellular features that make all of our brains work
  - The ways in which these features vary and co-vary across individuals
  - The relationship of this biological variation to genes, alleles and biological function
  - The tissue-based mechanisms of genetic risk for neurodevelopmental and neuropsychiatric disorders
 
-Our center will be applying the same approaches to the following neurological disease-focused projects:
-
- - Schizophrenia
- - Huntington's disease
- - Bipolar disorder
- - Simon's Aging Brain
+Our center will be applying the same approaches to other neurological disease and trait-focused projects, e.g., schizophrenia, Huntington's disease, bipolar disorder, and aging.
 
 ## Research goals
 ### Construct an atlas of human brain cell variation during development and adulthood
-We will construct an integrative atlas of cell types within 50 major brain regions associated with neurological and psychiatric disorders.  We will deeply study inter-individual variation by analyzing each of the selected brain regions during postnatal development (ages 10-25; 64 neurotypical donors) and adulthood (ages 25+; 200 neurotypical donors). In total, we will profile >13,000 samples and >116,000,000 nuclei using the latest single-cell multi-modal technologies.
+We will construct an integrative atlas of cell types within 50 major brain regions associated with neurological and psychiatric disorders.  We will deeply study inter-individual variation by analyzing each of the brain regions during postnatal development (ages 10-25; 64 neurotypical donors) and adulthood (ages 25+; 200 neurotypical donors). In total, we will profile >13,000 samples and >116,000,000 nuclei using the latest single-cell multi-modal technologies.
 
 <img src="/chbv/assets/img/experimental_design.png" alt="Table describing the number of samples and assays in the cell atlas" height="100%" width="100%" display="block" margin-left="auto" margin-right="auto">
 
 ### Characterize human brain biological variation
-We will estimate the cell type abundance and spatial distribution, expression, and DNA accessibility in the >13,000 samples.  We will identify how these features vary and co-vary across individuals.
+We will estimate the cell type abundance and spatial distribution, expression, and DNA accessibility in the thousands of brain samples and will identify how these features vary and co-vary across individuals.
 
 <img src="/chbv/assets/img/cell_type_composition_variation.png" alt="Transcriptome similarity across cell types and variation in cell type abundance across donors" height="100%" width="100%" display="block" margin-left="auto" margin-right="auto">
 
