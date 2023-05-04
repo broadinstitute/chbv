@@ -1,9 +1,9 @@
     <footer class="sticky-bottom mt-5">
       <div class="container">
             <div>Contact us</div>
-            <div><a href="mailto:{{ site.email | encode_email }}" title="email"><i class="fas fa-envelope"></i> {{ site.email }}</a></div>
-            <div><a href="https://twitter.com/{{ site.twitter_username }}" title="Twitter"><i class="fab fa-twitter"></i> @{{ site.twitter_username }}</a></div>
-            <div><a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn"><i class="fab fa-linkedin"></i> {{ site.linkedin_username }}</a></div>
+            <div><a href="mailto:{{ site.email | encode_email }}" title="email"><i class="fas fa-envelope"></i></a> <a href="mailto:{{ site.email | encode_email }}" title="email">{{ site.email }}</a></div>
+            <div><a href="https://twitter.com/{{ site.twitter_username }}" title="Twitter"><i class="fab fa-twitter"></i></a> <a href="https://twitter.com/{{ site.twitter_username }}" title="Twitter">{{ site.twitter_username }}</a></div>
+            <div><a href="https://www.linkedin.com/company/{{ site.linkedin_username }}" title="LinkedIn"><i class="fab fa-linkedin"></i></a> <a href="https://www.linkedin.com/company/{{ site.linkedin_username }}" title="LinkedIn">{{ site.linkedin_username }}</a></div>
 
         <div class="copywrite">
           &copy; Copyright {{ site.time | date: '%Y' }} {{ site.organization }}. {{ site.footer_text }}
