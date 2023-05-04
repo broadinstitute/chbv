@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: Publications
 title_long: Publications
-description: Experimental and computational methods that make the science at the CHBV possible.
+description: Experimental and computational methods that make the science at the Center possible.
 years: [2023, 2022]
 nav: true
 nav_order: 4
