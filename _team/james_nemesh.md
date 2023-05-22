@@ -2,7 +2,7 @@
 layout: person
 title: James Nemesh
 email: nemesh@broadinstitute.org
-description: 
+description: Jim is a Principal Software Engineer at the Broad Institute and a McCarroll Lab member.  Jim develops new methods to analyze scRNASeq data and assists in workflow/QC design of scRNASeq datasets for ...
 img: assets/img/james_nemesh.jpg
 importance: 7
 category: Computational Analysis
