@@ -47,14 +47,18 @@ def _update_team_member_importance(team_fns):
         team_fn = team_fns[i]
         new_importance = i + 1 # 1-based
         found = 0
-        for line in  fileinput.input(team_fn, inplace=True):
-            m = re.search('^importance: (\d+)$', line)
+        for line in fileinput.input(team_fn, inplace=True):
+            m = re.search('^importance:\s*(.*)$', line)
             if not (m is None): 
-                old_importance = int(m.group(1))
                 found = 1
-                line = "importance: %d" % (new_importance)
-                print('INFO: %s updated %d --> %d' % (team_fn, old_importance, new_importance), file=sys.stderr)
-            print(line) # Will print to input file inplace
+                old_importance = m.group(1) # could be blank
+                    
+                line = "importance: %d\n" % (new_importance)
+                print('INFO: %s updated %s --> %d' % (team_fn, old_importance, new_importance), file=sys.stderr)
+            print(line, end="") # Will print to input file inplace
+
+        if found == 0:
+            print('ERROR: could not find importance key:value pair for file %s' % (team_fn), file=sys.stderr)
 
 
     return 0
