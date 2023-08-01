@@ -6,11 +6,11 @@ title: Alec Wysoker
 
 email: alecw@broadinstitute.org
 
-description: Alec is a software engineer who develops tools to analyze genomic and transcriptomic data. ...
+description: Alec is a software engineer who develops tools to analyze genomic and transcriptomic data.
 
 img: assets/img/alec_wysoker.jpg
 
-importance: 13
+importance: 14
 category: Computational Analysis
 
 bio_long: |

@@ -10,7 +10,7 @@ description: Seva is a software engineer in Steven McCarroll's lab and has worke
 
 img: assets/img/seva_kashin.jpg
 
-importance: 7
+importance: 6
 category: Computational Analysis
 
 bio_long: |
