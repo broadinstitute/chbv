@@ -127,7 +127,7 @@ def _long_bio2short_bio(biography):
            tmp = short_bio.split(' ') 
            short_bio = ' '.join(tmp[0:(len(tmp) - 1)])
 
-           short_bio += ' ...'
+        short_bio += ' ...'
 
     return short_bio
 
