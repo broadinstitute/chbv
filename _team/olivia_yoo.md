@@ -1,7 +1,7 @@
 ---
 layout: person
 title: Olivia Yoo
-email: 
+email: yooolivi@broadinstitute.org
 description: Olivia is a Computational Associate in the McCarroll lab analyzing the quality and content of the single-cell sequencing data. Prior to joining the Broad, she studied computational neuroscience and ...
 img: assets/img/olivia_yoo.jpg
 importance: 15
