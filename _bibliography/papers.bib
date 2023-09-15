@@ -1,5 +1,31 @@
 ---
 ---
+@article{Fleming2023,
+author={Fleming, Stephen J.
+and Chaffin, Mark D.
+and Arduini, Alessandro
+and Akkad, Amer-Denis
+and Banks, Eric
+and Marioni, John C.
+and Philippakis, Anthony A.
+and Ellinor, Patrick T.
+and Babadi, Mehrtash},
+title={Unsupervised removal of systematic background noise from droplet-based single-cell experiments using CellBender},
+journal={Nature Methods},
+year={2023},
+month={Sep},
+day={01},
+volume={20},
+number={9},
+pages={1323-1335},
+abstract={Droplet-based single-cell assays, including single-cell RNA sequencing (scRNA-seq), single-nucleus RNA sequencing (snRNA-seq) and cellular indexing of transcriptomes and epitopes by sequencing (CITE-seq), generate considerable background noise counts, the hallmark of which is nonzero counts in cell-free droplets and off-target gene expression in unexpected cell types. Such systematic background noise can lead to batch effects and spurious differential gene expression results. Here we develop a deep generative model based on the phenomenology of noise generation in droplet-based assays. The proposed model accurately distinguishes cell-containing droplets from cell-free droplets, learns the background noise profile and provides noise-free quantification in an end-to-end fashion. We implement this approach in the scalable and robust open-source software package CellBender. Analysis of simulated data demonstrates that CellBender operates near the theoretically optimal denoising limit. Extensive evaluations using real datasets and experimental benchmarks highlight enhanced concordance between droplet-based single-cell data and established gene expression patterns, while the learned background noise profile provides evidence of degraded or uncaptured cell types.},
+issn={1548-7105},
+doi={10.1038/s41592-023-01943-7},
+url={https://doi.org/10.1038/s41592-023-01943-7},
+  pdf={fleming_et_al.nature_methods.2023.pdf},
+  preview={fleming_et_al.nature_methods.2023.png}
+}
+
 
 @article{WELLS2023312,
   title = {Natural variation in gene expression and viral susceptibility revealed by neural progenitor cell villages},journal = {Cell Stem Cell},
@@ -19,21 +45,6 @@
   preview={wells_et_al.cell_stem_cell.2023.jpg}
 }
 
-@article {Fleming791699,
-        author = {Stephen J. Fleming and Mark D. Chaffin and Alessandro Arduini and Amer-Denis Akkad and Eric Banks and John C. Marioni and Anthony A. Philippakis and Patrick T. Ellinor and Mehrtash Babadi},
-        title = {Unsupervised removal of systematic background noise from droplet-based single-cell experiments using CellBender},
-        elocation-id = {791699},
-        year = {2022},
-        doi = {10.1101/791699},
-        publisher = {Cold Spring Harbor Laboratory},
-        abstract = {Droplet-based single-cell assays, including scRNA-seq, snRNA-seq, and CITE-seq, produce a significant amount of background noise counts, the hallmark of which is non-zero counts in cell-free droplets and off-target gene expression in unexpected cell types. The presence of such systematic background noise is a potential source of batch effect and spurious differential gene expression. Here we develop a deep generative model for noise-contaminated data that is structured to reflect the phenomenology of background noise generation in droplet-based single-cell assays. The proposed model successfully distinguishes cell-containing from cell-free droplets without supervision, learns the profile of background noise, and retrieves a noise-free quantification in an end-to-end fashion. We present a scalable and robust implementation of our method as a module in the open-source software package CellBender. We show that CellBender operates close to the theoretically optimal denoising limit in simulated datasets, and present extensive evaluations using real datasets and experimental benchmarks drawn from different tissues, protocols, and modalities to show that CellBender significantly improves the agreement of droplet-based single-cell data with established gene expression patterns, and that the learned background noise profile provides evidence for degraded or uncaptured cell types.Competing Interest StatementDr. Akkad is an employee of Bayer US LLC (a subsidiary of Bayer AG) and may own stock in Bayer AG. Dr. Philippakis is employed as a Venture Partner at Google Ventures, and he is also supported by a grant from Bayer AG to the Broad Institute focused on machine learning for clinical trial design. Dr. Ellinor is supported by a grant from Bayer AG to the Broad Institute focused on the genetics and therapeutics of cardiovascular diseases. Dr. Ellinor has also served on advisory boards or consulted for Bayer AG, Quest Diagnostics, MyoKardia, and Novartis. The remaining authors declare no competing interests.},
-        URL = {https://www.biorxiv.org/content/early/2022/07/12/791699},
-        eprint = {https://www.biorxiv.org/content/early/2022/07/12/791699.full.pdf},
-        journal = {bioRxiv},
-  pdf={fleming_et_al.biorxiv.2022.pdf},
-  altmetric={248277},
-  preview={fleming_et_al.biorxiv.2022.png}
-}
 
 @article {Russell2023.04.01.535228,
         author = {Andrew J. C. Russell and Jackson A. Weir and Naeem M. Nadaf and Matthew Shabet and Vipin Kumar and Sandeep Kambhampati and Ruth Raichur and Giovanni J. Marrero and Sophia Liu and Karol S. Balderrama and Charles R. Vanderburg and Vignesh Shanmugam and Luyi Tian and Catherine J. Wu and Charles H. Yoon and Evan Z. Macosko and Fei Chen},
