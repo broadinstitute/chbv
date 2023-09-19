@@ -37,3 +37,9 @@ Using the cell atlas resource, we will examine how genetic variation shapes the 
 <img src="/assets/img/dna2mental_state.png" alt="Schematic of how DNA relates to brain function" height="100%" width="100%" display="block" margin-left="auto" margin-right="auto">
 
 The successful completion of this research will deliver an essential data resource for cellular, molecular, genetic and translational neuroscience.  The work will also  expand our understanding of the ways the human brain varies from person to person and provide powerful new ways to learn from inter-individual variation in brain phenotypes.
+
+## Foundational video introducing the Center's research vision
+ In this BroadWay talk, [Evan Macosko](team/evan_macosko/) and [Steve McCarroll](/team/steve_mccarroll/) explore the potential of how an atlas of the variation in brain cells and molecules across individuals will help us understand how the brain works and what makes it vulnerable to disease.  Watch the full talk below or on [youtube](https://www.youtube.com/watch?v=FZCJuR0fSNM&ab_channel=BroadInstitute). The BroadWay seminar series showcases Broad research and is designed to be accessible to all audiences.
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/FZCJuR0fSNM?si=skAXSiUgfviHlE4k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+ 
