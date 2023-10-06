@@ -1,0 +1,13 @@
+<!-- _includes/alumni.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+    {% if team.linked_in %}
+        <a href="{{ team.linked_in }}" target="_blank">{{ team.title }}</a>
+    {% else %}
+        {{ team.title }}
+    {% endif %}
+    ({{ team.years }})
+    {% if team.new_position %}
+        &gt; {{ team.new_position }}
+    {% endif %}
+</div>

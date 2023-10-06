@@ -56,3 +56,15 @@ display_categories: [Center leadership, Co-investigators, Project Management and
   {%- endif -%}
 {%- endif -%}
 </div>
+
+<!-- Display alumni -->
+<div class="alumni">
+  {%- assign category = "Alumni" %}
+  <h2 class="category">{{ category }}</h2>
+  {%- assign categorized_team = site.team | where: "category", category -%}
+  {%- assign sorted_team = categorized_team | sort: "alphabetical" %}
+  <!-- Generate list of alumni-->
+  {%- for team in sorted_team -%}
+    {% include alumni.html %}
+  {%- endfor %}
+</div>
