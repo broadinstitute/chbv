@@ -7,5 +7,5 @@ img_alt: "Kiku Ichihara presents a scientific poster to a crowd"
 inline: false
 related_posts: false
 description: |
- Members of the Center presented a poster on their research goals and key milestones at the annual Stanley Center’s Scientific Advisory Board meeting. The poster sparked intriguing discussions with board members and further underscored the need to study the remarkable complexities of the human brain.  Check out the poster <a href="/assets/pdf/sab_poster_2023.pdf" target="_blank">here</a>.
+ Members of the Center presented a poster on their research goals and key milestones at the annual Stanley Center’s Scientific Advisory Board meeting. The poster sparked intriguing discussions with board members and further underscored the need to study the remarkable complexities of the human brain.  Check out the poster [here](/assets/pdf/sab_poster_2023.pdf).
 ---
