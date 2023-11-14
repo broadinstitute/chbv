@@ -4,7 +4,7 @@ title: Project Manager I
 description: We are looking for an experienced project management professional who is passionate about the mission of the Broad Institute and Center for Human Brain Variation. ... 
 img: assets/img/project_manager.jpg
 importance: 2
-category: Open positions
+category: Closed positions
 ---
 
 <a href="https://broadinstitute.wd1.myworkdayjobs.com/en-US/broad_institute/job/Cambridge-MA/Senior-Project-Coordinator--Center-for-Human-Brain-Variation_36269">Apply now <i class="fas fa-external-link-alt"></i></a>

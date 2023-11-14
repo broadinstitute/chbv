@@ -4,7 +4,7 @@ title: Computational Scientist
 description: The Macosko Lab is seeking a computational biologist to work with data from a new spatial genomics technology we have developed called Slide-tags (soon-to-be-published), which allows thousands of single cells to be spatially localized while simultaneously measuring their gene expression and chromatin accessibility. ...
 img: assets/img/computational_scientist.jpg
 importance: 1
-category: Open positions
+category: Closed positions
 ---
 
 <a href="https://broadinstitute.wd1.myworkdayjobs.com/en-US/broad_institute/details/Computational-Biologist_6206/">Apply now <i class="fas fa-external-link-alt"></i></a>
