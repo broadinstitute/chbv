@@ -25,7 +25,7 @@ Qualifications and skills:
 - Able to thrive in a fast-paced rapidly changing environment.
 - Must be comfortable working with human biological specimens and able to work onsite five days per week.
 
-**Northeastern University students**, please apply through the [Northeastern University portal (co-op ID: 93484)](https://northeastern-csm.symplicity.com/students/?signin_tab=0).  Application deadline: December 29, 2023.
+**Northeastern University students**, please apply through the [Northeastern University portal (co-op ID: 93484)](https://northeastern-csm.symplicity.com/students/?signin_tab=0).  Application deadline: March 31, 2024 for Fall 2024 semester co-ops.
 
 **Students at other universities**, please send your CV and a cover letter to <a href="mailto:brain@broadinstitute.org?subject=Co-op Program">brain@broadinstitute.org</a> with "Co-op Program" in the subject line.
 
