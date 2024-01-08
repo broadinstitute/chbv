@@ -269,6 +269,12 @@ blockquote {
   align-items: center;
 }
 
+.seminar-image {
+  width: 25%;
+  float: left;
+  margin-right: 15px;
+}
+
 .citation,
 .citation-number {
   color: var(--global-theme-color);
