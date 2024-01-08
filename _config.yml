@@ -166,6 +166,9 @@ collections:
   jobs:
     output: true
     permalink: /jobs/:path/
+  seminars:
+    output: false
+    permalink: /seminars/:path/
 
 news:
   enabled: true
