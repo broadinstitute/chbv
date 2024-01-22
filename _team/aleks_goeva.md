@@ -10,7 +10,7 @@ description: Aleks is a postdoctoral fellow in the Macosko lab since June 2017. 
 
 img: assets/img/aleks_goeva.jpg
 
-importance: 4
+importance: 5
 category: Computational Analysis
 
 bio_long: |

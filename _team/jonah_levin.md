@@ -6,6 +6,7 @@ description: Jonah is a Research Assistant who is currently pursuing his BS in B
 img: assets/img/jonah_levin.jpg
 importance: 7
 category: Alumni
+new_position: Undergraduate, Northeastern University
 years: 2023
 bio_long: |
  Jonah is a Research Assistant who is currently pursuing his BS in Behavioral Neuroscience at Northeastern University. He has studied behavioral endocrinology, biological psychology, genetics and molecular biology, and is a licensed EMT. Jonah has a passion for neurotechnology and hopes to establish a career on the frontier of this developing field.

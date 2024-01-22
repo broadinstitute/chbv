@@ -10,7 +10,7 @@ description: Stephen is a Machine Learning Scientist II in the Methods Group of 
 
 img: assets/img/stephen_fleming.jpg
 
-importance: 1
+importance: 2
 category: Computational Analysis
 
 bio_long: |

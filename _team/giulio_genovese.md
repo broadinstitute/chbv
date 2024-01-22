@@ -10,7 +10,7 @@ description: Giulio is a mathematician by training. His main area of expertise i
 
 img: assets/img/giulio_genovese.jpg
 
-importance: 3
+importance: 4
 category: Computational Analysis
 
 bio_long: |
