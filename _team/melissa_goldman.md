@@ -10,7 +10,7 @@ description: Melissa is a data analytics manager in the McCarroll lab. She devel
 
 img: assets/img/melissa_goldman.jpg
 
-importance: 6
+importance: 7
 category: Computational Analysis
 
 bio_long: |

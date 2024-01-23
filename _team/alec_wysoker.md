@@ -10,7 +10,7 @@ description: Alec is a software engineer who develops tools to analyze genomic a
 
 img: assets/img/alec_wysoker.jpg
 
-importance: 15
+importance: 16
 category: Computational Analysis
 
 bio_long: |

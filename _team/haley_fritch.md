@@ -22,7 +22,7 @@ img: assets/img/haley_fritch.jpg
 
 
 
-importance: 3
+importance: 4
 category: Computational Analysis
 
 
