@@ -1,0 +1,13 @@
+---
+# _layouts/seminar_layout.html
+---
+
+{% if page.layout == 'seminar_layout' %}
+  {% if page.end_date < site.time %}
+    {% include previous_seminar.html %}
+  {% else %}
+    {% include upcoming_seminar.html %}
+  {% endif %}
+{% else %}
+  {% include layout_var %}
+{% endif %}

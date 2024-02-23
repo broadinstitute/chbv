@@ -1,5 +1,5 @@
 ---
-layout: seminar
+layout: seminar_layout
 title: "Role of postmortem human brain studies in research on nervous system disorders: The dead teach the living (<i>mortui vivos docent</i>)"
 presenter: Sabina Berretta, M.D.
 presenter_bio_link: https://www.mcleanhospital.org/profile/sabina-berretta
@@ -10,4 +10,6 @@ start_date: 2024-02-02 14:00:00 -0500
 end_date: 2024-02-02 15:30:00 -0500
 room: Yellowstone (<a href="https://goo.gl/maps/rgrf61c96aV1ruf77">Stanley Building</a>)
 img: assets/img/sabina_berretta.jpg
+video_link: https://www.youtube.com/watch?v=BO07pRl7paY&ab_channel=BroadInstitute
+embed_video_link: https://www.youtube-nocookie.com/embed/BO07pRl7paY?si=LJujctkcoQ101xcG
 ---
