@@ -3,7 +3,7 @@ layout: news_post
 title: "Khalid Shakir featured in #WhyIScience Q&A Broad news story"
 date: 2024-02-21 00:00:00-0400
 img: /assets/img/shakir_whyiscience.png
-img_alt: "Khalid Shakir headshot sitting on chair in office building"
+img_alt: "Khalid Shakir sitting on chair in office building"
 img_caption: "Credit: Allison Colorado"
 inline: false
 related_posts: false
