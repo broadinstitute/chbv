@@ -3,7 +3,7 @@ layout: job
 title: Computational Associate I
 img: assets/img/computational_scientist.jpg
 importance: 2
-category: Open positions
+category: Closed positions
 ---
 
 <a href="https://broadinstitute.wd1.myworkdayjobs.com/broad_institute/job/Early-Career-Researchers---Computational-Associate-I--Broad-wide-openings_38028/apply">Apply now <i class="fas fa-external-link-alt"></i></a>
