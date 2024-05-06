@@ -3,7 +3,7 @@ layout: job
 title: Research Associate II
 img: assets/img/research_associate2.jpg
 importance: 1
-category: Open positions
+category: Closed positions
 ---
 
 <a href="https://broadinstitute.wd1.myworkdayjobs.com/en-US/broad_institute/job/Research-Associate-II---Center-for-Human-Brain-Variation_39325">Apply now <i class="fas fa-external-link-alt"></i></a>
