@@ -12,9 +12,8 @@
             <p>Presenter: <a href="{{ seminar.presenter_bio_link }}">{{ seminar.presenter }}</a>, <i>{{ seminar.presenter_affiliation }}</i></p>
             <p>Date: {{ seminar.start_date | date: "%A, %B %-d, %Y %l:%M %p" }} - {{ seminar.end_date | date: "%l:%M %p %Z" }} EST</p>
             <p>Location: {{ seminar.room }} and via <a href="{{ seminar.registration_link }}">live stream</a></p>
-
-            <p class="card-text">{{ seminar.description }} </p>
             <p><a href="{{ seminar.registration_link }}">Register for the event <i class="fas fa-external-link-alt"></i></a></p>
+            <p class="card-text">{{ seminar.description }} </p>
           </div>
         </div>
       </div>
