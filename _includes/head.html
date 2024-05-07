@@ -14,7 +14,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/{{ site.highlight_theme_light | append: '.css' }}" media="" id="highlight_theme_light" />
 
     <!-- Styles -->
-    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    {% assign current_time = site.time | date: '%s' %}
+    <link rel="stylesheet" href="{{ '/assets/css/main.css?v=' | append: current_time | relative_url }}">
+
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
     
     <!-- Dark Mode -->
