@@ -966,3 +966,39 @@ progress::-moz-progress-bar {
     opacity: 1;
   }
 }
+
+// Top banner messasge
+.banner {
+    background: var(--global-theme-color);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.banner_content {
+    padding: 0.5vh;
+    max-width: 50vw;
+    width: auto;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.banner_text {
+    padding-right: 20px; /* Adds some padding between the text and the button */
+}
+
+
+.banner_text a {
+    color: var(--global-bg-color);
+}
+
+.banner_close {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--global-text-color);
+    font-size: x-large;
+}
