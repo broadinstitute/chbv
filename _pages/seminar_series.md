@@ -12,21 +12,21 @@ Register for our upcoming events, read about the speakers, watch previous talks,
 {% assign today = "now" | date: "%s" %}
 {% assign sorted_seminars = site.seminars %}
 
-{% assign any_upcoming_seminars = 0 %}
+{% assign any_upcoming_seminars = 1 %}
 
 {% if any_upcoming_seminars == 1 %}
-  <h2>Upcoming seminars</h2>
-  
-    <!-- Generate cards for each upcoming seminar -->
-    <div class="grid">
-      {%- for seminar in sorted_seminars -%}
-        {%- assign end_date = seminar.end_date | date: "%s" -%}
-        {%- if end_date > today -%}
-  
-          {%- include upcoming_seminar.html -%}
-        {%- endif -%}
-      {%- endfor -%}
-    </div>
+
+<h2>Upcoming seminars</h2>
+
+  <!-- Generate cards for each prevous seminar -->
+  <div class="grid">
+    {%- for seminar in sorted_seminars -%}
+      {%- assign end_date = seminar.end_date | date: "%s" -%}
+      {%- if end_date > today -%}
+        {%- include upcoming_seminar.html -%}
+      {%- endif -%}
+    {%- endfor -%}
+  </div>
   <p></p>
 {% endif %}
 
