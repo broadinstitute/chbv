@@ -11,7 +11,10 @@ description: Aleks is a postdoctoral fellow in the Macosko lab since June 2017. 
 img: assets/img/aleks_goeva.jpg
 
 importance: 6
-category: Computational Analysis
+category: Alumni
+years: 2022-2024
+new_position: Postdoctoral Research Scientist, Broad Institute
+linked_in: https://www.linkedin.com/in/aleksandrina-goeva-736754129/
 
 bio_long: |
 

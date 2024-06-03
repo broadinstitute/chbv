@@ -10,7 +10,7 @@ description: Khalid is a software engineer who uses his expertise to scale scien
 
 img: assets/img/khalid_shakir.jpg
 
-importance: 14
+importance: 13
 category: Computational Analysis
 
 bio_long: |
