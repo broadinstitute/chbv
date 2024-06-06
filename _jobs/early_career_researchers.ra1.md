@@ -3,7 +3,7 @@ layout: job
 title: Research Associate I
 img: assets/img/research_associate.jpg
 importance: 1
-category: Open positions
+category: Closed positions
 ---
 
 <a href="https://broadinstitute.wd1.myworkdayjobs.com/broad_institute/job/Early-Career-Researchers---Research-Associate-I--Broad-wide-openings_38027/apply">Apply now <i class="fas fa-external-link-alt"></i></a>
