@@ -25,6 +25,36 @@ Qualifications and skills:
 - Able to thrive in a fast-paced rapidly changing environment.
 - Must be comfortable working with human biological specimens and able to work onsite five days per week.
 
+## Testimonials from current and former co-op students
+
+Hear from our co-op students about their experiences and how the program has impacted their careers.
+
+<div class="testimonials">
+  <div class="testimonial-item">
+    <img src="/assets/img/cj_crombie_wetlab.jpg" alt="CJ Crombie uses a pipette to transfer liquid in a lab"/>
+    <div style="flex: 1;">
+      <blockquote>
+        "As a co-op student for CHBV, I have built strong relationships and have mentors that put into my growth and development as a scientist. Feeling that people in the field believe in me and see a strong future ahead of me has been incredibly validating and encouraging for me."
+      </blockquote>
+      <div class="blockquote-source">
+        <p>- <strong>CJ Crombie</strong>, cell and molecular biology major, Northeastern University</p>
+      </div>
+    </div>
+  </div>
+  <div class="testimonial-item">
+    <div style="flex: 1;">
+      <blockquote>
+        "My amazing mentors have taught me to push past my former limits and that I’m capable of learning and applying skills better than I once gave myself credit for."
+      </blockquote>
+      <div class="blockquote-source">
+        <p>- <strong>Valerie Foley</strong>, behavioral neuroscience major, Northeastern University</p>
+      </div>
+    </div>
+    <img src="/assets/img/valerie_foley_wetlab.jpg" alt="Valerie Foley uses a pipette to transfer liquid in a safety cabinet in a lab"/>
+  </div>
+</div>
+## How to apply
+
 **Northeastern University students**, the co-op positions for fall 2024 have been filled. We will start recruiting for spring 2025 positions this summer.
 
 **Students at other universities**, please send your CV and a cover letter to <a href="mailto:brain@broadinstitute.org?subject=Co-op Program">brain@broadinstitute.org</a> with "Co-op Program" in the subject line.
