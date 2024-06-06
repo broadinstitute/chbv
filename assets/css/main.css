@@ -901,6 +901,25 @@ progress::-moz-progress-bar {
   font-size: x-large;
 }
 
+.testimonial-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.testimonial-item img {
+  width: 200px;
+  margin-left: 5px;
+}
+
+.blockquote-source {
+  text-align: right;
+  font-size: 0.9em;
+  margin-top: 10px;
+  padding-right: 10px;
+}
+
 /*******************************************************************************
  * Style overrides for distill blog posts.
  ******************************************************************************/
