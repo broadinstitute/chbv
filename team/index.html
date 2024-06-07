@@ -30,7 +30,7 @@
 
     <!-- Styles -->
     
-    <link rel="stylesheet" href="/assets/css/main.css?v=1717790917">
+    <link rel="stylesheet" href="/assets/css/main.css?v=1717792772">
 
     <link rel="canonical" href="https://brain.broadinstitute.org/team/">
     
@@ -167,8 +167,7 @@ document.addEventListener('DOMContentLoaded', function () {
 <!-- _includes/team.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/team/steve_mccarroll/">
-      <div class="card hoverable">
+  <div class="card hoverable card-hover" onclick="handleCardClick(event, '/team/steve_mccarroll/')">
 <figure>
 
   <picture>
@@ -185,22 +184,29 @@ document.addEventListener('DOMContentLoaded', function () {
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title">Steve McCarroll, PhD</h2>
-          <p class="card-text"><i class="fa fa-envelope"></i> smccarro@broadinstitute.org</p>
-          <p class="card-text">Steve is an institute member of the Broad Institute of MIT and Harvard and director of genomic neurobiology for the Broad’s Stanley Center for Psychiatric Research. He is also Dorothy and Milton Flier Professor ... </p>
-          <p class="card-text"><a href="/team/steve_mccarroll//">Read more <i class="fa fa-angle-double-right"></i></a></p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
+    <div class="card-body">
+      <h2 class="card-title">Steve McCarroll, PhD</h2>
+      <p class="card-text">
+        <i class="fa fa-envelope"></i>
+        <a href="mailto:smccarro@broadinstitute.org" onclick="event.stopPropagation();">smccarro@broadinstitute.org</a>
+      </p>
+      <p class="card-text">Steve is an institute member of the Broad Institute of MIT and Harvard and director of genomic neurobiology for the Broad’s Stanley Center for Psychiatric Research. He is also Dorothy and Milton Flier Professor ...</p>
+      <p class="card-text">
+        <a href="/team/steve_mccarroll//" onclick="event.stopPropagation();">Read more <i class="fa fa-angle-double-right"></i></a>
+      </p>
+    </div>
+  </div>
 </div>
+
+<script>
+  function handleCardClick(event, url) {
+    window.location.href = url;
+  }
+</script>
 <!-- _includes/team.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/team/evan_macosko/">
-      <div class="card hoverable">
+  <div class="card hoverable card-hover" onclick="handleCardClick(event, '/team/evan_macosko/')">
 <figure>
 
   <picture>
@@ -217,22 +223,29 @@ document.addEventListener('DOMContentLoaded', function () {
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title">Evan Macosko, MD, PhD</h2>
-          <p class="card-text"><i class="fa fa-envelope"></i> emacosko@broadinstitute.org</p>
-          <p class="card-text">Evan is an institute member at the Broad Institute of MIT and Harvard, where he directs a lab in the Stanley Center for Psychiatric Research. He is also an associate professor and attending psychiatrist ... </p>
-          <p class="card-text"><a href="/team/evan_macosko//">Read more <i class="fa fa-angle-double-right"></i></a></p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
+    <div class="card-body">
+      <h2 class="card-title">Evan Macosko, MD, PhD</h2>
+      <p class="card-text">
+        <i class="fa fa-envelope"></i>
+        <a href="mailto:emacosko@broadinstitute.org" onclick="event.stopPropagation();">emacosko@broadinstitute.org</a>
+      </p>
+      <p class="card-text">Evan is an institute member at the Broad Institute of MIT and Harvard, where he directs a lab in the Stanley Center for Psychiatric Research. He is also an associate professor and attending psychiatrist ...</p>
+      <p class="card-text">
+        <a href="/team/evan_macosko//" onclick="event.stopPropagation();">Read more <i class="fa fa-angle-double-right"></i></a>
+      </p>
+    </div>
+  </div>
 </div>
+
+<script>
+  function handleCardClick(event, url) {
+    window.location.href = url;
+  }
+</script>
 <!-- _includes/team.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/team/kiku_ichihara/">
-      <div class="card hoverable">
+  <div class="card hoverable card-hover" onclick="handleCardClick(event, '/team/kiku_ichihara/')">
 <figure>
 
   <picture>
@@ -249,17 +262,25 @@ document.addEventListener('DOMContentLoaded', function () {
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title">Kiku Ichihara, MBA</h2>
-          <p class="card-text"><i class="fa fa-envelope"></i> kichihar@broadinstitute.org</p>
-          <p class="card-text">Kiku is the Managing Director of the Center for Human Brain Variation and the Director of Research Strategy &amp; Operations in the McCarroll Lab. She works closely with the Center Directors on overall ... </p>
-          <p class="card-text"><a href="/team/kiku_ichihara//">Read more <i class="fa fa-angle-double-right"></i></a></p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
+    <div class="card-body">
+      <h2 class="card-title">Kiku Ichihara, MBA</h2>
+      <p class="card-text">
+        <i class="fa fa-envelope"></i>
+        <a href="mailto:kichihar@broadinstitute.org" onclick="event.stopPropagation();">kichihar@broadinstitute.org</a>
+      </p>
+      <p class="card-text">Kiku is the Managing Director of the Center for Human Brain Variation and the Director of Research Strategy &amp; Operations in the McCarroll Lab. She works closely with the Center Directors on overall ...</p>
+      <p class="card-text">
+        <a href="/team/kiku_ichihara//" onclick="event.stopPropagation();">Read more <i class="fa fa-angle-double-right"></i></a>
+      </p>
+    </div>
+  </div>
 </div>
+
+<script>
+  function handleCardClick(event, url) {
+    window.location.href = url;
+  }
+</script>
 
   </div>
   <h2 class="category">Co-investigators</h2>
@@ -268,8 +289,7 @@ document.addEventListener('DOMContentLoaded', function () {
 <!-- _includes/team.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/team/mehrtash_babadi/">
-      <div class="card hoverable">
+  <div class="card hoverable card-hover" onclick="handleCardClick(event, '/team/mehrtash_babadi/')">
 <figure>
 
   <picture>
@@ -286,22 +306,29 @@ document.addEventListener('DOMContentLoaded', function () {
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title">Mehrtash Babadi, PhD</h2>
-          <p class="card-text"><i class="fa fa-envelope"></i> mehrtash@broadinstitute.org</p>
-          <p class="card-text">Mehrtash is the Director of Computational Methods at the Data Sciences Platform (DSP), Broad Institute. His group develops probabilistic machine learning methods and cloud-native software products for ... </p>
-          <p class="card-text"><a href="/team/mehrtash_babadi//">Read more <i class="fa fa-angle-double-right"></i></a></p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
+    <div class="card-body">
+      <h2 class="card-title">Mehrtash Babadi, PhD</h2>
+      <p class="card-text">
+        <i class="fa fa-envelope"></i>
+        <a href="mailto:mehrtash@broadinstitute.org" onclick="event.stopPropagation();">mehrtash@broadinstitute.org</a>
+      </p>
+      <p class="card-text">Mehrtash is the Director of Computational Methods at the Data Sciences Platform (DSP), Broad Institute. His group develops probabilistic machine learning methods and cloud-native software products for ...</p>
+      <p class="card-text">
+        <a href="/team/mehrtash_babadi//" onclick="event.stopPropagation();">Read more <i class="fa fa-angle-double-right"></i></a>
+      </p>
+    </div>
+  </div>
 </div>
+
+<script>
+  function handleCardClick(event, url) {
+    window.location.href = url;
+  }
+</script>
 <!-- _includes/team.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/team/randy_buckner/">
-      <div class="card hoverable">
+  <div class="card hoverable card-hover" onclick="handleCardClick(event, '/team/randy_buckner/')">
 <figure>
 
   <picture>
@@ -318,22 +345,29 @@ document.addEventListener('DOMContentLoaded', function () {
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title">Randy Buckner, PhD</h2>
-          <p class="card-text"><i class="fa fa-envelope"></i> randy_buckner@harvard.edu</p>
-          <p class="card-text">Randy is the Sosland Family Professor of Psychology and Neuroscience at Harvard University and affiliated with the Center for Brain Science.  He is also Professor at the Harvard Medical School and ... </p>
-          <p class="card-text"><a href="/team/randy_buckner//">Read more <i class="fa fa-angle-double-right"></i></a></p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
+    <div class="card-body">
+      <h2 class="card-title">Randy Buckner, PhD</h2>
+      <p class="card-text">
+        <i class="fa fa-envelope"></i>
+        <a href="mailto:randy_buckner@harvard.edu" onclick="event.stopPropagation();">randy_buckner@harvard.edu</a>
+      </p>
+      <p class="card-text">Randy is the Sosland Family Professor of Psychology and Neuroscience at Harvard University and affiliated with the Center for Brain Science.  He is also Professor at the Harvard Medical School and ...</p>
+      <p class="card-text">
+        <a href="/team/randy_buckner//" onclick="event.stopPropagation();">Read more <i class="fa fa-angle-double-right"></i></a>
+      </p>
+    </div>
+  </div>
 </div>
+
+<script>
+  function handleCardClick(event, url) {
+    window.location.href = url;
+  }
+</script>
 <!-- _includes/team.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/team/fei_chen/">
-      <div class="card hoverable">
+  <div class="card hoverable card-hover" onclick="handleCardClick(event, '/team/fei_chen/')">
 <figure>
 
   <picture>
@@ -350,22 +384,29 @@ document.addEventListener('DOMContentLoaded', function () {
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title">Fei Chen, PhD</h2>
-          <p class="card-text"><i class="fa fa-envelope"></i> chenf@broadinstitute.org</p>
-          <p class="card-text">Fei is a Core Faculty member at the Broad Institute and assistant professor at Harvard Stem Cell and Regenerative Biology. He obtained his Ph.D. in biological engineering from the Massachusetts Institute ... </p>
-          <p class="card-text"><a href="/team/fei_chen//">Read more <i class="fa fa-angle-double-right"></i></a></p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
+    <div class="card-body">
+      <h2 class="card-title">Fei Chen, PhD</h2>
+      <p class="card-text">
+        <i class="fa fa-envelope"></i>
+        <a href="mailto:chenf@broadinstitute.org" onclick="event.stopPropagation();">chenf@broadinstitute.org</a>
+      </p>
+      <p class="card-text">Fei is a Core Faculty member at the Broad Institute and assistant professor at Harvard Stem Cell and Regenerative Biology. He obtained his Ph.D. in biological engineering from the Massachusetts Institute ...</p>
+      <p class="card-text">
+        <a href="/team/fei_chen//" onclick="event.stopPropagation();">Read more <i class="fa fa-angle-double-right"></i></a>
+      </p>
+    </div>
+  </div>
 </div>
+
+<script>
+  function handleCardClick(event, url) {
+    window.location.href = url;
+  }
+</script>
 <!-- _includes/team.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/team/elise_robinson/">
-      <div class="card hoverable">
+  <div class="card hoverable card-hover" onclick="handleCardClick(event, '/team/elise_robinson/')">
 <figure>
 
   <picture>
@@ -382,22 +423,29 @@ document.addEventListener('DOMContentLoaded', function () {
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title">Elise Robinson, ScD, MPH</h2>
-          <p class="card-text"><i class="fa fa-envelope"></i> erob@broadinstitute.org</p>
-          <p class="card-text">Elise is an Assistant Professor in the Center for Genomic Medicine and Department of Psychiatry at Massachusetts General Hospital and an Institute Member of the Broad Institute of MIT and Harvard. She ... </p>
-          <p class="card-text"><a href="/team/elise_robinson//">Read more <i class="fa fa-angle-double-right"></i></a></p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
+    <div class="card-body">
+      <h2 class="card-title">Elise Robinson, ScD, MPH</h2>
+      <p class="card-text">
+        <i class="fa fa-envelope"></i>
+        <a href="mailto:erob@broadinstitute.org" onclick="event.stopPropagation();">erob@broadinstitute.org</a>
+      </p>
+      <p class="card-text">Elise is an Assistant Professor in the Center for Genomic Medicine and Department of Psychiatry at Massachusetts General Hospital and an Institute Member of the Broad Institute of MIT and Harvard. She ...</p>
+      <p class="card-text">
+        <a href="/team/elise_robinson//" onclick="event.stopPropagation();">Read more <i class="fa fa-angle-double-right"></i></a>
+      </p>
+    </div>
+  </div>
 </div>
+
+<script>
+  function handleCardClick(event, url) {
+    window.location.href = url;
+  }
+</script>
 <!-- _includes/team.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/team/charles_vanderburg/">
-      <div class="card hoverable">
+  <div class="card hoverable card-hover" onclick="handleCardClick(event, '/team/charles_vanderburg/')">
 <figure>
 
   <picture>
@@ -414,22 +462,29 @@ document.addEventListener('DOMContentLoaded', function () {
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title">Charles Vanderburg, PhD</h2>
-          <p class="card-text"><i class="fa fa-envelope"></i> cvanderb@broadinstitute.org</p>
-          <p class="card-text">Charles (Chuck) Vanderburg is a senior scientist at the Broad Institute of MIT and Harvard.  He develops methods to enable single nucleus and spatial analyses of micro-scale histopathological regions ... </p>
-          <p class="card-text"><a href="/team/charles_vanderburg//">Read more <i class="fa fa-angle-double-right"></i></a></p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
+    <div class="card-body">
+      <h2 class="card-title">Charles Vanderburg, PhD</h2>
+      <p class="card-text">
+        <i class="fa fa-envelope"></i>
+        <a href="mailto:cvanderb@broadinstitute.org" onclick="event.stopPropagation();">cvanderb@broadinstitute.org</a>
+      </p>
+      <p class="card-text">Charles (Chuck) Vanderburg is a senior scientist at the Broad Institute of MIT and Harvard.  He develops methods to enable single nucleus and spatial analyses of micro-scale histopathological regions ...</p>
+      <p class="card-text">
+        <a href="/team/charles_vanderburg//" onclick="event.stopPropagation();">Read more <i class="fa fa-angle-double-right"></i></a>
+      </p>
+    </div>
+  </div>
 </div>
+
+<script>
+  function handleCardClick(event, url) {
+    window.location.href = url;
+  }
+</script>
 <!-- _includes/team.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/team/joshua_welch/">
-      <div class="card hoverable">
+  <div class="card hoverable card-hover" onclick="handleCardClick(event, '/team/joshua_welch/')">
 <figure>
 
   <picture>
@@ -446,17 +501,25 @@ document.addEventListener('DOMContentLoaded', function () {
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title">Joshua Welch, PhD</h2>
-          <p class="card-text"><i class="fa fa-envelope"></i> welchjd@umiich.edu</p>
-          <p class="card-text">Josh is an Assistant Professor at the University of Michigan. He did graduate training at the University of North Carolina and postdoctoral research at the Broad Institute. A computer scientist by  ... </p>
-          <p class="card-text"><a href="/team/joshua_welch//">Read more <i class="fa fa-angle-double-right"></i></a></p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
+    <div class="card-body">
+      <h2 class="card-title">Joshua Welch, PhD</h2>
+      <p class="card-text">
+        <i class="fa fa-envelope"></i>
+        <a href="mailto:welchjd@umiich.edu" onclick="event.stopPropagation();">welchjd@umiich.edu</a>
+      </p>
+      <p class="card-text">Josh is an Assistant Professor at the University of Michigan. He did graduate training at the University of North Carolina and postdoctoral research at the Broad Institute. A computer scientist by  ...</p>
+      <p class="card-text">
+        <a href="/team/joshua_welch//" onclick="event.stopPropagation();">Read more <i class="fa fa-angle-double-right"></i></a>
+      </p>
+    </div>
+  </div>
 </div>
+
+<script>
+  function handleCardClick(event, url) {
+    window.location.href = url;
+  }
+</script>
 
   </div>
   <h2 class="category">Project Management and Operations</h2>
@@ -465,8 +528,7 @@ document.addEventListener('DOMContentLoaded', function () {
 <!-- _includes/team.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/team/rossini_fernandez/">
-      <div class="card hoverable">
+  <div class="card hoverable card-hover" onclick="handleCardClick(event, '/team/rossini_fernandez/')">
 <figure>
 
   <picture>
@@ -483,22 +545,29 @@ document.addEventListener('DOMContentLoaded', function () {
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title">Rossini Fernandez, MBA</h2>
-          <p class="card-text"><i class="fa fa-envelope"></i> fero@broadinstitute.org</p>
-          <p class="card-text">Rossini is a Senior Administrative Assistant of the Center for Human Brain Variation project at the Broad. Before joining the broad, she held many administrative positions ranging from Manager of an ... </p>
-          <p class="card-text"><a href="/team/rossini_fernandez//">Read more <i class="fa fa-angle-double-right"></i></a></p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
+    <div class="card-body">
+      <h2 class="card-title">Rossini Fernandez, MBA</h2>
+      <p class="card-text">
+        <i class="fa fa-envelope"></i>
+        <a href="mailto:fero@broadinstitute.org" onclick="event.stopPropagation();">fero@broadinstitute.org</a>
+      </p>
+      <p class="card-text">Rossini is a Senior Administrative Assistant of the Center for Human Brain Variation project at the Broad. Before joining the broad, she held many administrative positions ranging from Manager of an ...</p>
+      <p class="card-text">
+        <a href="/team/rossini_fernandez//" onclick="event.stopPropagation();">Read more <i class="fa fa-angle-double-right"></i></a>
+      </p>
+    </div>
+  </div>
 </div>
+
+<script>
+  function handleCardClick(event, url) {
+    window.location.href = url;
+  }
+</script>
 <!-- _includes/team.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/team/emily_finn/">
-      <div class="card hoverable">
+  <div class="card hoverable card-hover" onclick="handleCardClick(event, '/team/emily_finn/')">
 <figure>
 
   <picture>
@@ -515,22 +584,29 @@ document.addEventListener('DOMContentLoaded', function () {
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title">Emily Finn</h2>
-          <p class="card-text"><i class="fa fa-envelope"></i> finnemil@broadinstitute.org</p>
-          <p class="card-text">Emily is a Project Coordinator for the Center for Human Brain Variation focused on advancing various project components for BICAN. Prior to joining the Broad team, Emily managed multiple projects in ... </p>
-          <p class="card-text"><a href="/team/emily_finn//">Read more <i class="fa fa-angle-double-right"></i></a></p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
+    <div class="card-body">
+      <h2 class="card-title">Emily Finn</h2>
+      <p class="card-text">
+        <i class="fa fa-envelope"></i>
+        <a href="mailto:finnemil@broadinstitute.org" onclick="event.stopPropagation();">finnemil@broadinstitute.org</a>
+      </p>
+      <p class="card-text">Emily is a Project Coordinator for the Center for Human Brain Variation focused on advancing various project components for BICAN. Prior to joining the Broad team, Emily managed multiple projects in ...</p>
+      <p class="card-text">
+        <a href="/team/emily_finn//" onclick="event.stopPropagation();">Read more <i class="fa fa-angle-double-right"></i></a>
+      </p>
+    </div>
+  </div>
 </div>
+
+<script>
+  function handleCardClick(event, url) {
+    window.location.href = url;
+  }
+</script>
 <!-- _includes/team.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/team/katelyn_flowers/">
-      <div class="card hoverable">
+  <div class="card hoverable card-hover" onclick="handleCardClick(event, '/team/katelyn_flowers/')">
 <figure>
 
   <picture>
@@ -547,22 +623,29 @@ document.addEventListener('DOMContentLoaded', function () {
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title">Katelyn Flowers</h2>
-          <p class="card-text"><i class="fa fa-envelope"></i> kflowers@broadinstitute.org</p>
-          <p class="card-text">Katelyn is a Project Manager in the Stanley Center for Psychiatric Research. As the project manager for the Macosko lab, she has worked on various brain sequencing projects including BICCN grants: ... </p>
-          <p class="card-text"><a href="/team/katelyn_flowers//">Read more <i class="fa fa-angle-double-right"></i></a></p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
+    <div class="card-body">
+      <h2 class="card-title">Katelyn Flowers</h2>
+      <p class="card-text">
+        <i class="fa fa-envelope"></i>
+        <a href="mailto:kflowers@broadinstitute.org" onclick="event.stopPropagation();">kflowers@broadinstitute.org</a>
+      </p>
+      <p class="card-text">Katelyn is a Project Manager in the Stanley Center for Psychiatric Research. As the project manager for the Macosko lab, she has worked on various brain sequencing projects including BICCN grants: ...</p>
+      <p class="card-text">
+        <a href="/team/katelyn_flowers//" onclick="event.stopPropagation();">Read more <i class="fa fa-angle-double-right"></i></a>
+      </p>
+    </div>
+  </div>
 </div>
+
+<script>
+  function handleCardClick(event, url) {
+    window.location.href = url;
+  }
+</script>
 <!-- _includes/team.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/team/marina_hogan/">
-      <div class="card hoverable">
+  <div class="card hoverable card-hover" onclick="handleCardClick(event, '/team/marina_hogan/')">
 <figure>
 
   <picture>
@@ -579,22 +662,29 @@ document.addEventListener('DOMContentLoaded', function () {
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title">Marina Hogan</h2>
-          <p class="card-text"><i class="fa fa-envelope"></i> mhogan@broadinstitute.org</p>
-          <p class="card-text">Marina is a Project Manager for the Stanley Center for Psychiatric Research and supports Steve McCarroll’s lab. She has worked on various human genetic variation projects to better understand ... </p>
-          <p class="card-text"><a href="/team/marina_hogan//">Read more <i class="fa fa-angle-double-right"></i></a></p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
+    <div class="card-body">
+      <h2 class="card-title">Marina Hogan</h2>
+      <p class="card-text">
+        <i class="fa fa-envelope"></i>
+        <a href="mailto:mhogan@broadinstitute.org" onclick="event.stopPropagation();">mhogan@broadinstitute.org</a>
+      </p>
+      <p class="card-text">Marina is a Project Manager for the Stanley Center for Psychiatric Research and supports Steve McCarroll’s lab. She has worked on various human genetic variation projects to better understand ...</p>
+      <p class="card-text">
+        <a href="/team/marina_hogan//" onclick="event.stopPropagation();">Read more <i class="fa fa-angle-double-right"></i></a>
+      </p>
+    </div>
+  </div>
 </div>
+
+<script>
+  function handleCardClick(event, url) {
+    window.location.href = url;
+  }
+</script>
 <!-- _includes/team.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/team/curtis_mello/">
-      <div class="card hoverable">
+  <div class="card hoverable card-hover" onclick="handleCardClick(event, '/team/curtis_mello/')">
 <figure>
 
   <picture>
@@ -611,22 +701,29 @@ document.addEventListener('DOMContentLoaded', function () {
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title">Curtis Mello</h2>
-          <p class="card-text"><i class="fa fa-envelope"></i> curtis_mello@hms.harvard.edu</p>
-          <p class="card-text">Curtis is the Lab Manager and a Research Assistant in the McCarroll lab at HMS, and will be joining the BICAN project as Manager of Lab Operations. In the McCarroll lab, he helped optimize "village ... </p>
-          <p class="card-text"><a href="/team/curtis_mello//">Read more <i class="fa fa-angle-double-right"></i></a></p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
+    <div class="card-body">
+      <h2 class="card-title">Curtis Mello</h2>
+      <p class="card-text">
+        <i class="fa fa-envelope"></i>
+        <a href="mailto:curtis_mello@hms.harvard.edu" onclick="event.stopPropagation();">curtis_mello@hms.harvard.edu</a>
+      </p>
+      <p class="card-text">Curtis is the Lab Manager and a Research Assistant in the McCarroll lab at HMS, and will be joining the BICAN project as Manager of Lab Operations. In the McCarroll lab, he helped optimize "village ...</p>
+      <p class="card-text">
+        <a href="/team/curtis_mello//" onclick="event.stopPropagation();">Read more <i class="fa fa-angle-double-right"></i></a>
+      </p>
+    </div>
+  </div>
 </div>
+
+<script>
+  function handleCardClick(event, url) {
+    window.location.href = url;
+  }
+</script>
 <!-- _includes/team.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/team/sabrin_mohamednur/">
-      <div class="card hoverable">
+  <div class="card hoverable card-hover" onclick="handleCardClick(event, '/team/sabrin_mohamednur/')">
 <figure>
 
   <picture>
@@ -643,22 +740,29 @@ document.addEventListener('DOMContentLoaded', function () {
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title">Sabrin Mohamednur</h2>
-          <p class="card-text"><i class="fa fa-envelope"></i> smohamed@broadinstitute.org</p>
-          <p class="card-text">Sabrin is the Scientific Outreach Coordinator of the Center for Human Brain Variation project. As the coordinator she will oversee the implementation of the plans to enhance diverse perspectives as ... </p>
-          <p class="card-text"><a href="/team/sabrin_mohamednur//">Read more <i class="fa fa-angle-double-right"></i></a></p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
+    <div class="card-body">
+      <h2 class="card-title">Sabrin Mohamednur</h2>
+      <p class="card-text">
+        <i class="fa fa-envelope"></i>
+        <a href="mailto:smohamed@broadinstitute.org" onclick="event.stopPropagation();">smohamed@broadinstitute.org</a>
+      </p>
+      <p class="card-text">Sabrin is the Scientific Outreach Coordinator of the Center for Human Brain Variation project. As the coordinator she will oversee the implementation of the plans to enhance diverse perspectives as ...</p>
+      <p class="card-text">
+        <a href="/team/sabrin_mohamednur//" onclick="event.stopPropagation();">Read more <i class="fa fa-angle-double-right"></i></a>
+      </p>
+    </div>
+  </div>
 </div>
+
+<script>
+  function handleCardClick(event, url) {
+    window.location.href = url;
+  }
+</script>
 <!-- _includes/team.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/team/alex_werley/">
-      <div class="card hoverable">
+  <div class="card hoverable card-hover" onclick="handleCardClick(event, '/team/alex_werley/')">
 <figure>
 
   <picture>
@@ -675,17 +779,25 @@ document.addEventListener('DOMContentLoaded', function () {
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title">Alex Werley, MS</h2>
-          <p class="card-text"><i class="fa fa-envelope"></i> awerley@broadinstitute.org</p>
-          <p class="card-text">Alex is the Operations Lead, Center for Human Brain Variation at Broad Institute, overseeing financial and grants management for this project. She has a Master of Science in nonprofit management. ... </p>
-          <p class="card-text"><a href="/team/alex_werley//">Read more <i class="fa fa-angle-double-right"></i></a></p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
+    <div class="card-body">
+      <h2 class="card-title">Alex Werley, MS</h2>
+      <p class="card-text">
+        <i class="fa fa-envelope"></i>
+        <a href="mailto:awerley@broadinstitute.org" onclick="event.stopPropagation();">awerley@broadinstitute.org</a>
+      </p>
+      <p class="card-text">Alex is the Operations Lead, Center for Human Brain Variation at Broad Institute, overseeing financial and grants management for this project. She has a Master of Science in nonprofit management. ...</p>
+      <p class="card-text">
+        <a href="/team/alex_werley//" onclick="event.stopPropagation();">Read more <i class="fa fa-angle-double-right"></i></a>
+      </p>
+    </div>
+  </div>
 </div>
+
+<script>
+  function handleCardClick(event, url) {
+    window.location.href = url;
+  }
+</script>
 
   </div>
   <h2 class="category">Computational Analysis</h2>
@@ -694,8 +806,7 @@ document.addEventListener('DOMContentLoaded', function () {
 <!-- _includes/team.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/team/steve_burger/">
-      <div class="card hoverable">
+  <div class="card hoverable card-hover" onclick="handleCardClick(event, '/team/steve_burger/')">
 <figure>
 
   <picture>
@@ -712,22 +823,29 @@ document.addEventListener('DOMContentLoaded', function () {
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title">Steve Burger, PhD</h2>
-          <p class="card-text"><i class="fa fa-envelope"></i> sburger@broadinstitute.org</p>
-          <p class="card-text">Steve is a Computational Scientist in the McCarroll Lab. In graduate school, he studied X-inactivation mosaicism and the effects of X-linked mutations in the human brain. His research interests ... </p>
-          <p class="card-text"><a href="/team/steve_burger//">Read more <i class="fa fa-angle-double-right"></i></a></p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
+    <div class="card-body">
+      <h2 class="card-title">Steve Burger, PhD</h2>
+      <p class="card-text">
+        <i class="fa fa-envelope"></i>
+        <a href="mailto:sburger@broadinstitute.org" onclick="event.stopPropagation();">sburger@broadinstitute.org</a>
+      </p>
+      <p class="card-text">Steve is a Computational Scientist in the McCarroll Lab. In graduate school, he studied X-inactivation mosaicism and the effects of X-linked mutations in the human brain. His research interests ...</p>
+      <p class="card-text">
+        <a href="/team/steve_burger//" onclick="event.stopPropagation();">Read more <i class="fa fa-angle-double-right"></i></a>
+      </p>
+    </div>
+  </div>
 </div>
+
+<script>
+  function handleCardClick(event, url) {
+    window.location.href = url;
+  }
+</script>
 <!-- _includes/team.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/team/bennett_ferris/">
-      <div class="card hoverable">
+  <div class="card hoverable card-hover" onclick="handleCardClick(event, '/team/bennett_ferris/')">
 <figure>
 
   <picture>
@@ -744,22 +862,29 @@ document.addEventListener('DOMContentLoaded', function () {
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title">Bennett Ferris, PhD</h2>
-          <p class="card-text"><i class="fa fa-envelope"></i> ferris@broadinstitute.org</p>
-          <p class="card-text">Bennett is a Computational Scientist in the Macosko Lab. He is interested in using the tools of bioinformatics and machine learning to shed light on the etiology of neurodegenerative diseases. Prior ... </p>
-          <p class="card-text"><a href="/team/bennett_ferris//">Read more <i class="fa fa-angle-double-right"></i></a></p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
+    <div class="card-body">
+      <h2 class="card-title">Bennett Ferris, PhD</h2>
+      <p class="card-text">
+        <i class="fa fa-envelope"></i>
+        <a href="mailto:ferris@broadinstitute.org" onclick="event.stopPropagation();">ferris@broadinstitute.org</a>
+      </p>
+      <p class="card-text">Bennett is a Computational Scientist in the Macosko Lab. He is interested in using the tools of bioinformatics and machine learning to shed light on the etiology of neurodegenerative diseases. Prior ...</p>
+      <p class="card-text">
+        <a href="/team/bennett_ferris//" onclick="event.stopPropagation();">Read more <i class="fa fa-angle-double-right"></i></a>
+      </p>
+    </div>
+  </div>
 </div>
+
+<script>
+  function handleCardClick(event, url) {
+    window.location.href = url;
+  }
+</script>
 <!-- _includes/team.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/team/stephen_fleming/">
-      <div class="card hoverable">
+  <div class="card hoverable card-hover" onclick="handleCardClick(event, '/team/stephen_fleming/')">
 <figure>
 
   <picture>
@@ -776,22 +901,29 @@ document.addEventListener('DOMContentLoaded', function () {
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title">Stephen Fleming, PhD, MPhil</h2>
-          <p class="card-text"><i class="fa fa-envelope"></i> sfleming@broadinstitute.org</p>
-          <p class="card-text">Stephen is a Machine Learning Scientist II in the Methods Group of the Data Sciences Platform at the Broad Institute. He works on developing analytical methods and machine learning models for single ... </p>
-          <p class="card-text"><a href="/team/stephen_fleming//">Read more <i class="fa fa-angle-double-right"></i></a></p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
+    <div class="card-body">
+      <h2 class="card-title">Stephen Fleming, PhD, MPhil</h2>
+      <p class="card-text">
+        <i class="fa fa-envelope"></i>
+        <a href="mailto:sfleming@broadinstitute.org" onclick="event.stopPropagation();">sfleming@broadinstitute.org</a>
+      </p>
+      <p class="card-text">Stephen is a Machine Learning Scientist II in the Methods Group of the Data Sciences Platform at the Broad Institute. He works on developing analytical methods and machine learning models for single ...</p>
+      <p class="card-text">
+        <a href="/team/stephen_fleming//" onclick="event.stopPropagation();">Read more <i class="fa fa-angle-double-right"></i></a>
+      </p>
+    </div>
+  </div>
 </div>
+
+<script>
+  function handleCardClick(event, url) {
+    window.location.href = url;
+  }
+</script>
 <!-- _includes/team.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/team/haley_fritch/">
-      <div class="card hoverable">
+  <div class="card hoverable card-hover" onclick="handleCardClick(event, '/team/haley_fritch/')">
 <figure>
 
   <picture>
@@ -808,22 +940,29 @@ document.addEventListener('DOMContentLoaded', function () {
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title">Haley Fritch, PhD</h2>
-          <p class="card-text"><i class="fa fa-envelope"></i> fritch@broadinstitute.org</p>
-          <p class="card-text">Haley joined the McCarroll Lab as a computational scientist in May 2023. She received a PhD in cognitive neuroscience from Boston College and a BS in psychobiology from UCLA. Prior to joining the ... </p>
-          <p class="card-text"><a href="/team/haley_fritch//">Read more <i class="fa fa-angle-double-right"></i></a></p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
+    <div class="card-body">
+      <h2 class="card-title">Haley Fritch, PhD</h2>
+      <p class="card-text">
+        <i class="fa fa-envelope"></i>
+        <a href="mailto:fritch@broadinstitute.org" onclick="event.stopPropagation();">fritch@broadinstitute.org</a>
+      </p>
+      <p class="card-text">Haley joined the McCarroll Lab as a computational scientist in May 2023. She received a PhD in cognitive neuroscience from Boston College and a BS in psychobiology from UCLA. Prior to joining the ...</p>
+      <p class="card-text">
+        <a href="/team/haley_fritch//" onclick="event.stopPropagation();">Read more <i class="fa fa-angle-double-right"></i></a>
+      </p>
+    </div>
+  </div>
 </div>
+
+<script>
+  function handleCardClick(event, url) {
+    window.location.href = url;
+  }
+</script>
 <!-- _includes/team.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/team/giulio_genovese/">
-      <div class="card hoverable">
+  <div class="card hoverable card-hover" onclick="handleCardClick(event, '/team/giulio_genovese/')">
 <figure>
 
   <picture>
@@ -840,22 +979,29 @@ document.addEventListener('DOMContentLoaded', function () {
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title">Giulio Genovese, PhD</h2>
-          <p class="card-text"><i class="fa fa-envelope"></i> giulio@broadinstitute.org</p>
-          <p class="card-text">Giulio is a mathematician by training. His main area of expertise is in models to detect mosaic chromosomal alterations. Giulio has experience in computer languages and statistical languages such as ... </p>
-          <p class="card-text"><a href="/team/giulio_genovese//">Read more <i class="fa fa-angle-double-right"></i></a></p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
+    <div class="card-body">
+      <h2 class="card-title">Giulio Genovese, PhD</h2>
+      <p class="card-text">
+        <i class="fa fa-envelope"></i>
+        <a href="mailto:giulio@broadinstitute.org" onclick="event.stopPropagation();">giulio@broadinstitute.org</a>
+      </p>
+      <p class="card-text">Giulio is a mathematician by training. His main area of expertise is in models to detect mosaic chromosomal alterations. Giulio has experience in computer languages and statistical languages such as ...</p>
+      <p class="card-text">
+        <a href="/team/giulio_genovese//" onclick="event.stopPropagation();">Read more <i class="fa fa-angle-double-right"></i></a>
+      </p>
+    </div>
+  </div>
 </div>
+
+<script>
+  function handleCardClick(event, url) {
+    window.location.href = url;
+  }
+</script>
 <!-- _includes/team.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/team/melissa_goldman/">
-      <div class="card hoverable">
+  <div class="card hoverable card-hover" onclick="handleCardClick(event, '/team/melissa_goldman/')">
 <figure>
 
   <picture>
@@ -872,22 +1018,29 @@ document.addEventListener('DOMContentLoaded', function () {
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title">Melissa Goldman</h2>
-          <p class="card-text"><i class="fa fa-envelope"></i> mgoldman@broadinstitute.org</p>
-          <p class="card-text">Melissa is a data analytics manager in the McCarroll lab. She developed Drop-seq with Evan Macosko, and worked at the bench for over 8 years specializing in single-cell technologies. She now works ... </p>
-          <p class="card-text"><a href="/team/melissa_goldman//">Read more <i class="fa fa-angle-double-right"></i></a></p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
+    <div class="card-body">
+      <h2 class="card-title">Melissa Goldman</h2>
+      <p class="card-text">
+        <i class="fa fa-envelope"></i>
+        <a href="mailto:mgoldman@broadinstitute.org" onclick="event.stopPropagation();">mgoldman@broadinstitute.org</a>
+      </p>
+      <p class="card-text">Melissa is a data analytics manager in the McCarroll lab. She developed Drop-seq with Evan Macosko, and worked at the bench for over 8 years specializing in single-cell technologies. She now works ...</p>
+      <p class="card-text">
+        <a href="/team/melissa_goldman//" onclick="event.stopPropagation();">Read more <i class="fa fa-angle-double-right"></i></a>
+      </p>
+    </div>
+  </div>
 </div>
+
+<script>
+  function handleCardClick(event, url) {
+    window.location.href = url;
+  }
+</script>
 <!-- _includes/team.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/team/seva_kashin/">
-      <div class="card hoverable">
+  <div class="card hoverable card-hover" onclick="handleCardClick(event, '/team/seva_kashin/')">
 <figure>
 
   <picture>
@@ -904,22 +1057,29 @@ document.addEventListener('DOMContentLoaded', function () {
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title">Seva Kashin</h2>
-          <p class="card-text"><i class="fa fa-envelope"></i> skashin@broadinstitute.org</p>
-          <p class="card-text">Seva is a software engineer in Steven McCarroll's lab and has worked on various copy number variation and single cell analysis projects. He's very excited by  neuroscience, literature and history. </p>
-          <p class="card-text"><a href="/team/seva_kashin//">Read more <i class="fa fa-angle-double-right"></i></a></p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
+    <div class="card-body">
+      <h2 class="card-title">Seva Kashin</h2>
+      <p class="card-text">
+        <i class="fa fa-envelope"></i>
+        <a href="mailto:skashin@broadinstitute.org" onclick="event.stopPropagation();">skashin@broadinstitute.org</a>
+      </p>
+      <p class="card-text">Seva is a software engineer in Steven McCarroll's lab and has worked on various copy number variation and single cell analysis projects. He's very excited by  neuroscience, literature and history.</p>
+      <p class="card-text">
+        <a href="/team/seva_kashin//" onclick="event.stopPropagation();">Read more <i class="fa fa-angle-double-right"></i></a>
+      </p>
+    </div>
+  </div>
 </div>
+
+<script>
+  function handleCardClick(event, url) {
+    window.location.href = url;
+  }
+</script>
 <!-- _includes/team.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/team/jonah_langlieb/">
-      <div class="card hoverable">
+  <div class="card hoverable card-hover" onclick="handleCardClick(event, '/team/jonah_langlieb/')">
 <figure>
 
   <picture>
@@ -936,22 +1096,29 @@ document.addEventListener('DOMContentLoaded', function () {
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title">Jonah Langlieb</h2>
-          <p class="card-text"><i class="fa fa-envelope"></i> jlanglie@broadinstitute.org</p>
-          <p class="card-text">Jonah is a Senior Computational Associate in the Macosko Lab. His research focuses on developing and applying methods to analyze large-scale single-cell datasets and is excited to work with all this ... </p>
-          <p class="card-text"><a href="/team/jonah_langlieb//">Read more <i class="fa fa-angle-double-right"></i></a></p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
+    <div class="card-body">
+      <h2 class="card-title">Jonah Langlieb</h2>
+      <p class="card-text">
+        <i class="fa fa-envelope"></i>
+        <a href="mailto:jlanglie@broadinstitute.org" onclick="event.stopPropagation();">jlanglie@broadinstitute.org</a>
+      </p>
+      <p class="card-text">Jonah is a Senior Computational Associate in the Macosko Lab. His research focuses on developing and applying methods to analyze large-scale single-cell datasets and is excited to work with all this ...</p>
+      <p class="card-text">
+        <a href="/team/jonah_langlieb//" onclick="event.stopPropagation();">Read more <i class="fa fa-angle-double-right"></i></a>
+      </p>
+    </div>
+  </div>
 </div>
+
+<script>
+  function handleCardClick(event, url) {
+    window.location.href = url;
+  }
+</script>
 <!-- _includes/team.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/team/james_nemesh/">
-      <div class="card hoverable">
+  <div class="card hoverable card-hover" onclick="handleCardClick(event, '/team/james_nemesh/')">
 <figure>
 
   <picture>
@@ -968,22 +1135,29 @@ document.addEventListener('DOMContentLoaded', function () {
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title">James Nemesh</h2>
-          <p class="card-text"><i class="fa fa-envelope"></i> nemesh@broadinstitute.org</p>
-          <p class="card-text">Jim is a Principal Software Engineer at the Broad Institute and a McCarroll Lab member.  Jim develops new methods to analyze scRNASeq data and assists in workflow/QC design of scRNASeq datasets for ... </p>
-          <p class="card-text"><a href="/team/james_nemesh//">Read more <i class="fa fa-angle-double-right"></i></a></p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
+    <div class="card-body">
+      <h2 class="card-title">James Nemesh</h2>
+      <p class="card-text">
+        <i class="fa fa-envelope"></i>
+        <a href="mailto:nemesh@broadinstitute.org" onclick="event.stopPropagation();">nemesh@broadinstitute.org</a>
+      </p>
+      <p class="card-text">Jim is a Principal Software Engineer at the Broad Institute and a McCarroll Lab member.  Jim develops new methods to analyze scRNASeq data and assists in workflow/QC design of scRNASeq datasets for ...</p>
+      <p class="card-text">
+        <a href="/team/james_nemesh//" onclick="event.stopPropagation();">Read more <i class="fa fa-angle-double-right"></i></a>
+      </p>
+    </div>
+  </div>
 </div>
+
+<script>
+  function handleCardClick(event, url) {
+    window.location.href = url;
+  }
+</script>
 <!-- _includes/team.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/team/mukund_raj/">
-      <div class="card hoverable">
+  <div class="card hoverable card-hover" onclick="handleCardClick(event, '/team/mukund_raj/')">
 <figure>
 
   <picture>
@@ -1000,22 +1174,29 @@ document.addEventListener('DOMContentLoaded', function () {
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title">Mukund Raj</h2>
-          <p class="card-text"><i class="fa fa-envelope"></i> mraj@broadinstitute.org</p>
-          <p class="card-text">Mukund is a Senior Software Engineer in the Macosko Lab. He enjoys building interactive, visual analytic web portals, as well as developing visualizations for large, geometric, or high-dimensional ... </p>
-          <p class="card-text"><a href="/team/mukund_raj//">Read more <i class="fa fa-angle-double-right"></i></a></p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
+    <div class="card-body">
+      <h2 class="card-title">Mukund Raj</h2>
+      <p class="card-text">
+        <i class="fa fa-envelope"></i>
+        <a href="mailto:mraj@broadinstitute.org" onclick="event.stopPropagation();">mraj@broadinstitute.org</a>
+      </p>
+      <p class="card-text">Mukund is a Senior Software Engineer in the Macosko Lab. He enjoys building interactive, visual analytic web portals, as well as developing visualizations for large, geometric, or high-dimensional ...</p>
+      <p class="card-text">
+        <a href="/team/mukund_raj//" onclick="event.stopPropagation();">Read more <i class="fa fa-angle-double-right"></i></a>
+      </p>
+    </div>
+  </div>
 </div>
+
+<script>
+  function handleCardClick(event, url) {
+    window.location.href = url;
+  }
+</script>
 <!-- _includes/team.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/team/nicole_rockweiler/">
-      <div class="card hoverable">
+  <div class="card hoverable card-hover" onclick="handleCardClick(event, '/team/nicole_rockweiler/')">
 <figure>
 
   <picture>
@@ -1032,22 +1213,29 @@ document.addEventListener('DOMContentLoaded', function () {
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title">Nicole Rockweiler, PhD</h2>
-          <p class="card-text"><i class="fa fa-envelope"></i> nrockwei@broadinstitute.org</p>
-          <p class="card-text">Nicole is a postdoctoral associate in Steven McCarroll's lab and is interested in understanding the causes and consequences of mosaicism in health and disease. Nicole received her PhD in ... </p>
-          <p class="card-text"><a href="/team/nicole_rockweiler//">Read more <i class="fa fa-angle-double-right"></i></a></p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
+    <div class="card-body">
+      <h2 class="card-title">Nicole Rockweiler, PhD</h2>
+      <p class="card-text">
+        <i class="fa fa-envelope"></i>
+        <a href="mailto:nrockwei@broadinstitute.org" onclick="event.stopPropagation();">nrockwei@broadinstitute.org</a>
+      </p>
+      <p class="card-text">Nicole is a postdoctoral associate in Steven McCarroll's lab and is interested in understanding the causes and consequences of mosaicism in health and disease. Nicole received her PhD in ...</p>
+      <p class="card-text">
+        <a href="/team/nicole_rockweiler//" onclick="event.stopPropagation();">Read more <i class="fa fa-angle-double-right"></i></a>
+      </p>
+    </div>
+  </div>
 </div>
+
+<script>
+  function handleCardClick(event, url) {
+    window.location.href = url;
+  }
+</script>
 <!-- _includes/team.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/team/matthew_shabet/">
-      <div class="card hoverable">
+  <div class="card hoverable card-hover" onclick="handleCardClick(event, '/team/matthew_shabet/')">
 <figure>
 
   <picture>
@@ -1064,22 +1252,29 @@ document.addEventListener('DOMContentLoaded', function () {
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title">Matthew Shabet</h2>
-          <p class="card-text"><i class="fa fa-envelope"></i> mshabet@broadinstitute.org</p>
-          <p class="card-text">Matthew is an associate computational biologist working in the Macosko Lab. He is currently studying the epigenetic characteristics of neuronal cell types vulnerable to degeneration in Parkinson’s ... </p>
-          <p class="card-text"><a href="/team/matthew_shabet//">Read more <i class="fa fa-angle-double-right"></i></a></p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
+    <div class="card-body">
+      <h2 class="card-title">Matthew Shabet</h2>
+      <p class="card-text">
+        <i class="fa fa-envelope"></i>
+        <a href="mailto:mshabet@broadinstitute.org" onclick="event.stopPropagation();">mshabet@broadinstitute.org</a>
+      </p>
+      <p class="card-text">Matthew is an associate computational biologist working in the Macosko Lab. He is currently studying the epigenetic characteristics of neuronal cell types vulnerable to degeneration in Parkinson’s ...</p>
+      <p class="card-text">
+        <a href="/team/matthew_shabet//" onclick="event.stopPropagation();">Read more <i class="fa fa-angle-double-right"></i></a>
+      </p>
+    </div>
+  </div>
 </div>
+
+<script>
+  function handleCardClick(event, url) {
+    window.location.href = url;
+  }
+</script>
 <!-- _includes/team.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/team/khalid_shakir/">
-      <div class="card hoverable">
+  <div class="card hoverable card-hover" onclick="handleCardClick(event, '/team/khalid_shakir/')">
 <figure>
 
   <picture>
@@ -1096,22 +1291,29 @@ document.addEventListener('DOMContentLoaded', function () {
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title">Khalid Shakir, MS</h2>
-          <p class="card-text"><i class="fa fa-envelope"></i> kshakir@broadinstitute.org</p>
-          <p class="card-text">Khalid is a software engineer who uses his expertise to scale scientific analyses. During his time at the Broad Institute he contributed to projects including the 1000 Genomes Project and the ... </p>
-          <p class="card-text"><a href="/team/khalid_shakir//">Read more <i class="fa fa-angle-double-right"></i></a></p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
+    <div class="card-body">
+      <h2 class="card-title">Khalid Shakir, MS</h2>
+      <p class="card-text">
+        <i class="fa fa-envelope"></i>
+        <a href="mailto:kshakir@broadinstitute.org" onclick="event.stopPropagation();">kshakir@broadinstitute.org</a>
+      </p>
+      <p class="card-text">Khalid is a software engineer who uses his expertise to scale scientific analyses. During his time at the Broad Institute he contributed to projects including the 1000 Genomes Project and the ...</p>
+      <p class="card-text">
+        <a href="/team/khalid_shakir//" onclick="event.stopPropagation();">Read more <i class="fa fa-angle-double-right"></i></a>
+      </p>
+    </div>
+  </div>
 </div>
+
+<script>
+  function handleCardClick(event, url) {
+    window.location.href = url;
+  }
+</script>
 <!-- _includes/team.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/team/jonah_silverman/">
-      <div class="card hoverable">
+  <div class="card hoverable card-hover" onclick="handleCardClick(event, '/team/jonah_silverman/')">
 <figure>
 
   <picture>
@@ -1128,22 +1330,29 @@ document.addEventListener('DOMContentLoaded', function () {
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title">Jonah Silverman</h2>
-          <p class="card-text"><i class="fa fa-envelope"></i> jsilverm@broadinstitute.org</p>
-          <p class="card-text">Jonah is an Associate Computational Biologist in the Macosko Lab. His work focuses on the application and development of computational methods for the processing and analysis of single-cell datasets. </p>
-          <p class="card-text"><a href="/team/jonah_silverman//">Read more <i class="fa fa-angle-double-right"></i></a></p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
+    <div class="card-body">
+      <h2 class="card-title">Jonah Silverman</h2>
+      <p class="card-text">
+        <i class="fa fa-envelope"></i>
+        <a href="mailto:jsilverm@broadinstitute.org" onclick="event.stopPropagation();">jsilverm@broadinstitute.org</a>
+      </p>
+      <p class="card-text">Jonah is an Associate Computational Biologist in the Macosko Lab. His work focuses on the application and development of computational methods for the processing and analysis of single-cell datasets.</p>
+      <p class="card-text">
+        <a href="/team/jonah_silverman//" onclick="event.stopPropagation();">Read more <i class="fa fa-angle-double-right"></i></a>
+      </p>
+    </div>
+  </div>
 </div>
+
+<script>
+  function handleCardClick(event, url) {
+    window.location.href = url;
+  }
+</script>
 <!-- _includes/team.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/team/alec_wysoker/">
-      <div class="card hoverable">
+  <div class="card hoverable card-hover" onclick="handleCardClick(event, '/team/alec_wysoker/')">
 <figure>
 
   <picture>
@@ -1160,22 +1369,29 @@ document.addEventListener('DOMContentLoaded', function () {
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title">Alec Wysoker</h2>
-          <p class="card-text"><i class="fa fa-envelope"></i> alecw@broadinstitute.org</p>
-          <p class="card-text">Alec is a software engineer who develops tools to analyze genomic and transcriptomic data. </p>
-          <p class="card-text"><a href="/team/alec_wysoker//">Read more <i class="fa fa-angle-double-right"></i></a></p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
+    <div class="card-body">
+      <h2 class="card-title">Alec Wysoker</h2>
+      <p class="card-text">
+        <i class="fa fa-envelope"></i>
+        <a href="mailto:alecw@broadinstitute.org" onclick="event.stopPropagation();">alecw@broadinstitute.org</a>
+      </p>
+      <p class="card-text">Alec is a software engineer who develops tools to analyze genomic and transcriptomic data.</p>
+      <p class="card-text">
+        <a href="/team/alec_wysoker//" onclick="event.stopPropagation();">Read more <i class="fa fa-angle-double-right"></i></a>
+      </p>
+    </div>
+  </div>
 </div>
+
+<script>
+  function handleCardClick(event, url) {
+    window.location.href = url;
+  }
+</script>
 <!-- _includes/team.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/team/olivia_yoo/">
-      <div class="card hoverable">
+  <div class="card hoverable card-hover" onclick="handleCardClick(event, '/team/olivia_yoo/')">
 <figure>
 
   <picture>
@@ -1192,17 +1408,25 @@ document.addEventListener('DOMContentLoaded', function () {
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title">Olivia Yoo</h2>
-          <p class="card-text"><i class="fa fa-envelope"></i> yooolivi@broadinstitute.org</p>
-          <p class="card-text">Olivia is a Computational Associate in the McCarroll lab analyzing the quality and content of the single-cell sequencing data. Prior to joining the Broad, she studied computational neuroscience and ... </p>
-          <p class="card-text"><a href="/team/olivia_yoo//">Read more <i class="fa fa-angle-double-right"></i></a></p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
+    <div class="card-body">
+      <h2 class="card-title">Olivia Yoo</h2>
+      <p class="card-text">
+        <i class="fa fa-envelope"></i>
+        <a href="mailto:yooolivi@broadinstitute.org" onclick="event.stopPropagation();">yooolivi@broadinstitute.org</a>
+      </p>
+      <p class="card-text">Olivia is a Computational Associate in the McCarroll lab analyzing the quality and content of the single-cell sequencing data. Prior to joining the Broad, she studied computational neuroscience and ...</p>
+      <p class="card-text">
+        <a href="/team/olivia_yoo//" onclick="event.stopPropagation();">Read more <i class="fa fa-angle-double-right"></i></a>
+      </p>
+    </div>
+  </div>
 </div>
+
+<script>
+  function handleCardClick(event, url) {
+    window.location.href = url;
+  }
+</script>
 
   </div>
   <h2 class="category">Data Generation</h2>
@@ -1211,8 +1435,7 @@ document.addEventListener('DOMContentLoaded', function () {
 <!-- _includes/team.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/team/karol_balderrama/">
-      <div class="card hoverable">
+  <div class="card hoverable card-hover" onclick="handleCardClick(event, '/team/karol_balderrama/')">
 <figure>
 
   <picture>
@@ -1229,22 +1452,29 @@ document.addEventListener('DOMContentLoaded', function () {
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title">Karol Balderrama</h2>
-          <p class="card-text"><i class="fa fa-envelope"></i> kbalderr@broadinstitute.org</p>
-          <p class="card-text">Karol is a research associate at Macosko and Chen labs. She graduated for The University of Texas at El Paso with a Microbiology major. She works in optimizing and applying a spatial transcriptomic ... </p>
-          <p class="card-text"><a href="/team/karol_balderrama//">Read more <i class="fa fa-angle-double-right"></i></a></p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
+    <div class="card-body">
+      <h2 class="card-title">Karol Balderrama</h2>
+      <p class="card-text">
+        <i class="fa fa-envelope"></i>
+        <a href="mailto:kbalderr@broadinstitute.org" onclick="event.stopPropagation();">kbalderr@broadinstitute.org</a>
+      </p>
+      <p class="card-text">Karol is a research associate at Macosko and Chen labs. She graduated for The University of Texas at El Paso with a Microbiology major. She works in optimizing and applying a spatial transcriptomic ...</p>
+      <p class="card-text">
+        <a href="/team/karol_balderrama//" onclick="event.stopPropagation();">Read more <i class="fa fa-angle-double-right"></i></a>
+      </p>
+    </div>
+  </div>
 </div>
+
+<script>
+  function handleCardClick(event, url) {
+    window.location.href = url;
+  }
+</script>
 <!-- _includes/team.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/team/nikita_budnik/">
-      <div class="card hoverable">
+  <div class="card hoverable card-hover" onclick="handleCardClick(event, '/team/nikita_budnik/')">
 <figure>
 
   <picture>
@@ -1261,22 +1491,29 @@ document.addEventListener('DOMContentLoaded', function () {
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title">Nikita Budnik</h2>
-          <p class="card-text"><i class="fa fa-envelope"></i> nbudnik@broadinstitute.org</p>
-          <p class="card-text">Nikita is a Research Associate II in the McCarroll and Macosko labs. Previous work at the Broad Institute includes ion channelopathy studies for the Jen Pan lab, and protein–protein interaction ... </p>
-          <p class="card-text"><a href="/team/nikita_budnik//">Read more <i class="fa fa-angle-double-right"></i></a></p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
+    <div class="card-body">
+      <h2 class="card-title">Nikita Budnik</h2>
+      <p class="card-text">
+        <i class="fa fa-envelope"></i>
+        <a href="mailto:nbudnik@broadinstitute.org" onclick="event.stopPropagation();">nbudnik@broadinstitute.org</a>
+      </p>
+      <p class="card-text">Nikita is a Research Associate II in the McCarroll and Macosko labs. Previous work at the Broad Institute includes ion channelopathy studies for the Jen Pan lab, and protein–protein interaction ...</p>
+      <p class="card-text">
+        <a href="/team/nikita_budnik//" onclick="event.stopPropagation();">Read more <i class="fa fa-angle-double-right"></i></a>
+      </p>
+    </div>
+  </div>
 </div>
+
+<script>
+  function handleCardClick(event, url) {
+    window.location.href = url;
+  }
+</script>
 <!-- _includes/team.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/team/cj_crombie/">
-      <div class="card hoverable">
+  <div class="card hoverable card-hover" onclick="handleCardClick(event, '/team/cj_crombie/')">
 <figure>
 
   <picture>
@@ -1293,22 +1530,29 @@ document.addEventListener('DOMContentLoaded', function () {
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title">CJ Crombie</h2>
-          <p class="card-text"><i class="fa fa-envelope"></i> ccrombie@broadinstitute.org</p>
-          <p class="card-text">CJ is an undergraduate co-op student working as a Research Assistant on the BICAN project. CJ is deeply passionate about her studies in Cell and Molecular Biology at Northeastern University! ... </p>
-          <p class="card-text"><a href="/team/cj_crombie//">Read more <i class="fa fa-angle-double-right"></i></a></p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
+    <div class="card-body">
+      <h2 class="card-title">CJ Crombie</h2>
+      <p class="card-text">
+        <i class="fa fa-envelope"></i>
+        <a href="mailto:ccrombie@broadinstitute.org" onclick="event.stopPropagation();">ccrombie@broadinstitute.org</a>
+      </p>
+      <p class="card-text">CJ is an undergraduate co-op student working as a Research Assistant on the BICAN project. CJ is deeply passionate about her studies in Cell and Molecular Biology at Northeastern University! ...</p>
+      <p class="card-text">
+        <a href="/team/cj_crombie//" onclick="event.stopPropagation();">Read more <i class="fa fa-angle-double-right"></i></a>
+      </p>
+    </div>
+  </div>
 </div>
+
+<script>
+  function handleCardClick(event, url) {
+    window.location.href = url;
+  }
+</script>
 <!-- _includes/team.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/team/kathleen_kim/">
-      <div class="card hoverable">
+  <div class="card hoverable card-hover" onclick="handleCardClick(event, '/team/kathleen_kim/')">
 <figure>
 
   <picture>
@@ -1325,22 +1569,29 @@ document.addEventListener('DOMContentLoaded', function () {
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title">Kathleen Kim</h2>
-          <p class="card-text"><i class="fa fa-envelope"></i> kimkathl@broadinstitute.org</p>
-          <p class="card-text">Kathleen is a Research Associate I working on the BICAN project for the McCarroll &amp; Macosko labs and studying X-linked Dystonia Parkinsonism. Prior to joining the Broad, she researched ... </p>
-          <p class="card-text"><a href="/team/kathleen_kim//">Read more <i class="fa fa-angle-double-right"></i></a></p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
+    <div class="card-body">
+      <h2 class="card-title">Kathleen Kim</h2>
+      <p class="card-text">
+        <i class="fa fa-envelope"></i>
+        <a href="mailto:kimkathl@broadinstitute.org" onclick="event.stopPropagation();">kimkathl@broadinstitute.org</a>
+      </p>
+      <p class="card-text">Kathleen is a Research Associate I working on the BICAN project for the McCarroll &amp; Macosko labs and studying X-linked Dystonia Parkinsonism. Prior to joining the Broad, she researched ...</p>
+      <p class="card-text">
+        <a href="/team/kathleen_kim//" onclick="event.stopPropagation();">Read more <i class="fa fa-angle-double-right"></i></a>
+      </p>
+    </div>
+  </div>
 </div>
+
+<script>
+  function handleCardClick(event, url) {
+    window.location.href = url;
+  }
+</script>
 <!-- _includes/team.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/team/vipin_kumar/">
-      <div class="card hoverable">
+  <div class="card hoverable card-hover" onclick="handleCardClick(event, '/team/vipin_kumar/')">
 <figure>
 
   <picture>
@@ -1357,22 +1608,29 @@ document.addEventListener('DOMContentLoaded', function () {
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title">Vipin Kumar, PhD</h2>
-          <p class="card-text"><i class="fa fa-envelope"></i> vkumar@broadinstitute.org</p>
-          <p class="card-text">Vipin is a nucleic acid chemist working on developing oligonucleotides for spatial transcriptomic technology. In addition, he also works on developing artificial oligonucleotides and their application ... </p>
-          <p class="card-text"><a href="/team/vipin_kumar//">Read more <i class="fa fa-angle-double-right"></i></a></p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
+    <div class="card-body">
+      <h2 class="card-title">Vipin Kumar, PhD</h2>
+      <p class="card-text">
+        <i class="fa fa-envelope"></i>
+        <a href="mailto:vkumar@broadinstitute.org" onclick="event.stopPropagation();">vkumar@broadinstitute.org</a>
+      </p>
+      <p class="card-text">Vipin is a nucleic acid chemist working on developing oligonucleotides for spatial transcriptomic technology. In addition, he also works on developing artificial oligonucleotides and their application ...</p>
+      <p class="card-text">
+        <a href="/team/vipin_kumar//" onclick="event.stopPropagation();">Read more <i class="fa fa-angle-double-right"></i></a>
+      </p>
+    </div>
+  </div>
 </div>
+
+<script>
+  function handleCardClick(event, url) {
+    window.location.href = url;
+  }
+</script>
 <!-- _includes/team.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/team/lauren_macaisa/">
-      <div class="card hoverable">
+  <div class="card hoverable card-hover" onclick="handleCardClick(event, '/team/lauren_macaisa/')">
 <figure>
 
   <picture>
@@ -1389,22 +1647,29 @@ document.addEventListener('DOMContentLoaded', function () {
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title">Lauren Macaisa</h2>
-          <p class="card-text"><i class="fa fa-envelope"></i> macaisa@broadinstitute.org</p>
-          <p class="card-text">Lauren is a Research Associate II focused on organizing and optimizing wet lab protocols for the McCarroll &amp; Macosko BICAN lab efforts. Prior to working at the Broad, Lauren worked at Moffitt Cancer ... </p>
-          <p class="card-text"><a href="/team/lauren_macaisa//">Read more <i class="fa fa-angle-double-right"></i></a></p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
+    <div class="card-body">
+      <h2 class="card-title">Lauren Macaisa</h2>
+      <p class="card-text">
+        <i class="fa fa-envelope"></i>
+        <a href="mailto:macaisa@broadinstitute.org" onclick="event.stopPropagation();">macaisa@broadinstitute.org</a>
+      </p>
+      <p class="card-text">Lauren is a Research Associate II focused on organizing and optimizing wet lab protocols for the McCarroll &amp; Macosko BICAN lab efforts. Prior to working at the Broad, Lauren worked at Moffitt Cancer ...</p>
+      <p class="card-text">
+        <a href="/team/lauren_macaisa//" onclick="event.stopPropagation();">Read more <i class="fa fa-angle-double-right"></i></a>
+      </p>
+    </div>
+  </div>
 </div>
+
+<script>
+  function handleCardClick(event, url) {
+    window.location.href = url;
+  }
+</script>
 <!-- _includes/team.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/team/giovanni_marrero/">
-      <div class="card hoverable">
+  <div class="card hoverable card-hover" onclick="handleCardClick(event, '/team/giovanni_marrero/')">
 <figure>
 
   <picture>
@@ -1421,22 +1686,29 @@ document.addEventListener('DOMContentLoaded', function () {
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title">Giovanni Marrero</h2>
-          <p class="card-text"><i class="fa fa-envelope"></i> gmarrero@broadinstitute.org</p>
-          <p class="card-text">Giovanni is a Research Associate III and the Lab Manager for the Chen Lab. After graduating from Syracuse University with a BS in Biotechnology, he studied immunology at the University of Pittsburgh ... </p>
-          <p class="card-text"><a href="/team/giovanni_marrero//">Read more <i class="fa fa-angle-double-right"></i></a></p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
+    <div class="card-body">
+      <h2 class="card-title">Giovanni Marrero</h2>
+      <p class="card-text">
+        <i class="fa fa-envelope"></i>
+        <a href="mailto:gmarrero@broadinstitute.org" onclick="event.stopPropagation();">gmarrero@broadinstitute.org</a>
+      </p>
+      <p class="card-text">Giovanni is a Research Associate III and the Lab Manager for the Chen Lab. After graduating from Syracuse University with a BS in Biotechnology, he studied immunology at the University of Pittsburgh ...</p>
+      <p class="card-text">
+        <a href="/team/giovanni_marrero//" onclick="event.stopPropagation();">Read more <i class="fa fa-angle-double-right"></i></a>
+      </p>
+    </div>
+  </div>
 </div>
+
+<script>
+  function handleCardClick(event, url) {
+    window.location.href = url;
+  }
+</script>
 <!-- _includes/team.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/team/julianna_milidantri/">
-      <div class="card hoverable">
+  <div class="card hoverable card-hover" onclick="handleCardClick(event, '/team/julianna_milidantri/')">
 <figure>
 
   <picture>
@@ -1453,22 +1725,29 @@ document.addEventListener('DOMContentLoaded', function () {
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title">Julianna Milidantri</h2>
-          <p class="card-text"><i class="fa fa-envelope"></i> jmilidan@broadinstitute.org</p>
-          <p class="card-text">Julianna is a Research Associate I at the Center for Human Brain Variation. While earning her bachelor's degree from Northeastern University, she engaged in a variety of academic and industry ... </p>
-          <p class="card-text"><a href="/team/julianna_milidantri//">Read more <i class="fa fa-angle-double-right"></i></a></p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
+    <div class="card-body">
+      <h2 class="card-title">Julianna Milidantri</h2>
+      <p class="card-text">
+        <i class="fa fa-envelope"></i>
+        <a href="mailto:jmilidan@broadinstitute.org" onclick="event.stopPropagation();">jmilidan@broadinstitute.org</a>
+      </p>
+      <p class="card-text">Julianna is a Research Associate I at the Center for Human Brain Variation. While earning her bachelor's degree from Northeastern University, she engaged in a variety of academic and industry ...</p>
+      <p class="card-text">
+        <a href="/team/julianna_milidantri//" onclick="event.stopPropagation();">Read more <i class="fa fa-angle-double-right"></i></a>
+      </p>
+    </div>
+  </div>
 </div>
+
+<script>
+  function handleCardClick(event, url) {
+    window.location.href = url;
+  }
+</script>
 <!-- _includes/team.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/team/naeem_nadaf/">
-      <div class="card hoverable">
+  <div class="card hoverable card-hover" onclick="handleCardClick(event, '/team/naeem_nadaf/')">
 <figure>
 
   <picture>
@@ -1485,22 +1764,29 @@ document.addEventListener('DOMContentLoaded', function () {
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title">Naeem Nadaf, BDS</h2>
-          <p class="card-text"><i class="fa fa-envelope"></i> nnadaf@broadinstitute.org</p>
-          <p class="card-text">Naeem is an International dentist from India working as Research Scientist 1 in the Macosko lab. Naeem is working on snRNA seq experiments and he has created and optimized various snRNA seq and ... </p>
-          <p class="card-text"><a href="/team/naeem_nadaf//">Read more <i class="fa fa-angle-double-right"></i></a></p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
+    <div class="card-body">
+      <h2 class="card-title">Naeem Nadaf, BDS</h2>
+      <p class="card-text">
+        <i class="fa fa-envelope"></i>
+        <a href="mailto:nnadaf@broadinstitute.org" onclick="event.stopPropagation();">nnadaf@broadinstitute.org</a>
+      </p>
+      <p class="card-text">Naeem is an International dentist from India working as Research Scientist 1 in the Macosko lab. Naeem is working on snRNA seq experiments and he has created and optimized various snRNA seq and ...</p>
+      <p class="card-text">
+        <a href="/team/naeem_nadaf//" onclick="event.stopPropagation();">Read more <i class="fa fa-angle-double-right"></i></a>
+      </p>
+    </div>
+  </div>
 </div>
+
+<script>
+  function handleCardClick(event, url) {
+    window.location.href = url;
+  }
+</script>
 <!-- _includes/team.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/team/nirmala_rayan/">
-      <div class="card hoverable">
+  <div class="card hoverable card-hover" onclick="handleCardClick(event, '/team/nirmala_rayan/')">
 <figure>
 
   <picture>
@@ -1517,22 +1803,29 @@ document.addEventListener('DOMContentLoaded', function () {
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title">Nirmala Rayan, PhD</h2>
-          <p class="card-text"><i class="fa fa-envelope"></i> narulray@broadinstitute.org</p>
-          <p class="card-text">Nirmala is a Senior Scientist at the Broad Institute of MIT and Harvard, where she specializes in studying the cellular correlates of inter-individual brain variation. As part of the BICAN team, she ... </p>
-          <p class="card-text"><a href="/team/nirmala_rayan//">Read more <i class="fa fa-angle-double-right"></i></a></p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
+    <div class="card-body">
+      <h2 class="card-title">Nirmala Rayan, PhD</h2>
+      <p class="card-text">
+        <i class="fa fa-envelope"></i>
+        <a href="mailto:narulray@broadinstitute.org" onclick="event.stopPropagation();">narulray@broadinstitute.org</a>
+      </p>
+      <p class="card-text">Nirmala is a Senior Scientist at the Broad Institute of MIT and Harvard, where she specializes in studying the cellular correlates of inter-individual brain variation. As part of the BICAN team, she ...</p>
+      <p class="card-text">
+        <a href="/team/nirmala_rayan//" onclick="event.stopPropagation();">Read more <i class="fa fa-angle-double-right"></i></a>
+      </p>
+    </div>
+  </div>
 </div>
+
+<script>
+  function handleCardClick(event, url) {
+    window.location.href = url;
+  }
+</script>
 <!-- _includes/team.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/team/liv_spina/">
-      <div class="card hoverable">
+  <div class="card hoverable card-hover" onclick="handleCardClick(event, '/team/liv_spina/')">
 <figure>
 
   <picture>
@@ -1549,22 +1842,29 @@ document.addEventListener('DOMContentLoaded', function () {
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title">Liv Spina</h2>
-          <p class="card-text"><i class="fa fa-envelope"></i> liv_spina@hms.harvard.edu</p>
-          <p class="card-text">Liv is an Associate Research and Operational Assistant in the McCarroll Lab. She runs nuclei isolation protocols for single-cell sequencing and assists in lab management tasks, such as setting up the  ... </p>
-          <p class="card-text"><a href="/team/liv_spina//">Read more <i class="fa fa-angle-double-right"></i></a></p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
+    <div class="card-body">
+      <h2 class="card-title">Liv Spina</h2>
+      <p class="card-text">
+        <i class="fa fa-envelope"></i>
+        <a href="mailto:liv_spina@hms.harvard.edu" onclick="event.stopPropagation();">liv_spina@hms.harvard.edu</a>
+      </p>
+      <p class="card-text">Liv is an Associate Research and Operational Assistant in the McCarroll Lab. She runs nuclei isolation protocols for single-cell sequencing and assists in lab management tasks, such as setting up the  ...</p>
+      <p class="card-text">
+        <a href="/team/liv_spina//" onclick="event.stopPropagation();">Read more <i class="fa fa-angle-double-right"></i></a>
+      </p>
+    </div>
+  </div>
 </div>
+
+<script>
+  function handleCardClick(event, url) {
+    window.location.href = url;
+  }
+</script>
 <!-- _includes/team.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/team/nafiseh_yavari/">
-      <div class="card hoverable">
+  <div class="card hoverable card-hover" onclick="handleCardClick(event, '/team/nafiseh_yavari/')">
 <figure>
 
   <picture>
@@ -1581,17 +1881,25 @@ document.addEventListener('DOMContentLoaded', function () {
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title">Nafiseh Yavari, PhD</h2>
-          <p class="card-text"><i class="fa fa-envelope"></i> nyavari@broadinstitute.org</p>
-          <p class="card-text">Nafiseh is a Research Scientist at Broad Institute. Her research focus has been on optimizing the Single Cell Multiome ATAC + Gene Expression to human brain tissues, particularly midbrain subregions ... </p>
-          <p class="card-text"><a href="/team/nafiseh_yavari//">Read more <i class="fa fa-angle-double-right"></i></a></p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
+    <div class="card-body">
+      <h2 class="card-title">Nafiseh Yavari, PhD</h2>
+      <p class="card-text">
+        <i class="fa fa-envelope"></i>
+        <a href="mailto:nyavari@broadinstitute.org" onclick="event.stopPropagation();">nyavari@broadinstitute.org</a>
+      </p>
+      <p class="card-text">Nafiseh is a Research Scientist at Broad Institute. Her research focus has been on optimizing the Single Cell Multiome ATAC + Gene Expression to human brain tissues, particularly midbrain subregions ...</p>
+      <p class="card-text">
+        <a href="/team/nafiseh_yavari//" onclick="event.stopPropagation();">Read more <i class="fa fa-angle-double-right"></i></a>
+      </p>
+    </div>
+  </div>
 </div>
+
+<script>
+  function handleCardClick(event, url) {
+    window.location.href = url;
+  }
+</script>
 
   </div>
 </div>
