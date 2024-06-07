@@ -101,6 +101,8 @@ body.sticky-bottom-footer {
  * Styles for the base elements of the theme.
  ******************************************************************************/
 html {
+  height: 100%;
+  margin: 0;
   scroll-behavior: smooth;
 }
 
@@ -194,7 +196,20 @@ img {
 }
 
 body {
+  height: 100%;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding-bottom: 0px;
+}
+
+main {
+  padding-bottom: 50px;
+}
+
+main.flex-fill {
+  flex: 1;
 }
 
 .hero {
@@ -442,21 +457,8 @@ blockquote {
   font-size: 0.8rem;
 }
 
-footer.fixed-bottom {
-  background-color: var(--global-footer-bg-color);
-  font-size: 0.75rem;
-}
-footer.fixed-bottom .container {
-  color: var(--global-footer-text-color);
-  padding-top: 9px;
-  padding-bottom: 8px;
-}
-footer.fixed-bottom a {
-  color: var(--global-footer-link-color);
-}
-footer.fixed-bottom a:hover {
-  color: var(--global-theme-color);
-  text-decoration: none;
+.container {
+  flex: 1;
 }
 
 footer.sticky-bottom {
