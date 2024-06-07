@@ -171,6 +171,15 @@ main.flex-fill {
   margin-bottom: 0.5em;
 }
 
+.image-credit {
+  text-align: right;
+  font-size: 0.775rem;
+  color: #6c757d; 
+  margin-top: -1.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 1.5rem; 
+}
+
 blockquote {
   background: var(--global-bg-color);
   border-left: 2px solid var(--global-theme-color);
