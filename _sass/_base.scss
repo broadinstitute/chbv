@@ -599,6 +599,19 @@ footer.sticky-bottom {
 
 
 // Team
+.card-hover {
+  cursor: pointer;
+}
+
+.card-hover:hover .card-title {
+  color: var(--global-theme-color);
+}
+
+.card-hover .card-text a[href^="mailto:"] {
+  color: inherit;        /* Inherit color from parent */
+  text-decoration: none; /* Remove underline */
+}
+
 
 .team {
   a {
