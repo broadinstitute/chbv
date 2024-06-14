@@ -10,9 +10,9 @@ Our Seminar Series is a quarterly series designed to make cutting-edge neuroscie
 Register for our upcoming events, read about the speakers, watch previous talks, and delve into the fascinating world of neuroscience. Join us as we connect minds, share knowledge, and pave the way for a more accessible and collaborative scientific community.
 
 {% assign today = "now" | date: "%s" %}
-{% assign sorted_seminars = site.seminars %}
+{% assign sorted_seminars = site.seminars | sort: 'end_date' | reverse %}
 
-{% assign any_upcoming_seminars = 1 %}
+{% assign any_upcoming_seminars = 0 %}
 
 {% if any_upcoming_seminars == 1 %}
 
