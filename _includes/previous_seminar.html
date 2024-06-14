@@ -10,12 +10,16 @@
           </div>
           <div class="seminar-content">
             <p>Presenter: <a href="{{ seminar.presenter_bio_link }}">{{ seminar.presenter }}</a>, <i>{{ seminar.presenter_affiliation }}</i></p>
-            <p>Date: {{ seminar.start_date | date: "%A, %B %-d, %Y %l:%M %p" }} - {{ seminar.end_date | date: "%l:%M %p %Z" }} EST</p>
-            <p>Watch the recorded seminar on <a href="{{ seminar.video_link }}">YouTube</a>.</p>
+            <p>Date: {{ seminar.start_date | date: "%A, %B %-d, %Y %l:%M %p" }} - {{ seminar.end_date | date: "%l:%M %p %Z" }} ET</p>
+            {% if seminar.video_link %}
+              <p>Watch the recorded seminar on <a href="{{ seminar.video_link }}">YouTube</a>.</p>
+            {% endif %}
             <p class="card-text">{{ seminar.description }} </p>
-            <div style="display: flex; justify-content: center;"> 
-              <iframe width="560" height="315" src="{{ seminar.embed_video_link }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
+            {% if seminar.video_link %}
+              <div style="display: flex; justify-content: center;"> 
+                <iframe width="560" height="315" src="{{ seminar.embed_video_link }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
+            {% endif %}
           </div>
         </div>
       </div>
