@@ -231,6 +231,12 @@ blockquote {
 }
 
 // Seminar card
+.seminar {
+  .grid-sizer,
+  .grid-item {
+    margin-bottom: 10px;
+  }
+}
 
 .seminar-image {
     width: 25%;
