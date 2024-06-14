@@ -294,6 +294,11 @@ blockquote {
   align-items: center;
 }
 
+.seminar .grid-sizer,
+.seminar .grid-item {
+  margin-bottom: 10px;
+}
+
 .seminar-image {
   width: 25%;
   float: left;

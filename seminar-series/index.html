@@ -30,7 +30,7 @@
 
     <!-- Styles -->
     
-    <link rel="stylesheet" href="/assets/css/main.css?v=1717794557">
+    <link rel="stylesheet" href="/assets/css/main.css?v=1718378745">
 
     <link rel="canonical" href="https://brain.broadinstitute.org/seminar-series/">
     
@@ -59,35 +59,6 @@
   <body class="fixed-top-nav sticky-bottom-footer d-flex flex-column min-vh-100">
 
     <!-- Header -->    <header>
-    <div id="site-banner" class="banner" style="display: none">
-        <div class="banner_content">
-            <div class="banner_text">
-                The next CHBV seminar is on Tuesday, June 11.  Register and learn more <a href="/seminar-series/">here</a>!
-            </div>
-            <button id="site-banner-close" class="banner_close" type="button">
-                <i class="fa fa-window-close" aria-hidden="true"></i>
-            </button>
-        </div>
-    </div>
-<script>
-if (sessionStorage.getItem('bannerClosed') !== 'true') {
-    document.getElementById('site-banner').style.display = 'block';
-}
-
-document.addEventListener('DOMContentLoaded', function () {
-    const banner = document.getElementById('site-banner');
-    const closeButton = document.getElementById('site-banner-close');
-
-    // Add event listener to close button
-    closeButton.addEventListener('click', function() {
-        banner.style.display = 'none';
-        // Store the state in sessionStorage
-        sessionStorage.setItem('bannerClosed', 'true');
-    });
-});
-</script>
-
-
       <!-- Nav Bar -->
       <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
         <div class="container">
@@ -162,17 +133,18 @@ document.addEventListener('DOMContentLoaded', function () {
 
 <p>Register for our upcoming events, read about the speakers, watch previous talks, and delve into the fascinating world of neuroscience. Join us as we connect minds, share knowledge, and pave the way for a more accessible and collaborative scientific community.</p>
 
-<h2>Upcoming seminars</h2>
+<h2>Previous seminars</h2>
 
 <p><!-- Generate cards for each prevous seminar --></p>
 <div class="grid">
 <!-- _includes/seminar.html -->
 <div class="grid-sizer"></div>
-<div class="grid-item">
-      <div class="card hoverable">
-        <div class="card-body">
-          <h3 class="card-title">We are influenced by our surroundings: spatial and single cell diversity of cells and humans</h3>
-          <div class="seminar-image">
+<div class="seminar">
+  <div class="grid-item">
+        <div class="card hoverable">
+          <div class="card-body">
+            <h3 class="card-title">We are influenced by our surroundings: spatial and single cell diversity of cells and humans</h3>
+            <div class="seminar-image">
 <figure>
 
   <picture>
@@ -189,30 +161,25 @@ document.addEventListener('DOMContentLoaded', function () {
 
 </figure>
 </div>
-          <div class="seminar-content">
-            <p>Presenter: <a href="https://prabhakarlab.github.io/" rel="external nofollow noopener" target="_blank">Shyam Prabhakar, PhD</a>, <i>Associate Director, Spatial and Single Cell Systems, Genome Institute of Singapore; Senior Group Leader, Systems Biology and Data Analytics, Genome Institute of Singapore</i></p>
-            <p>Date: Tuesday, June 11, 2024 10:30 AM - 12:00 PM  EST</p>
-            <p>Location: Serengeti (<a href="https://goo.gl/maps/rgrf61c96aV1ruf77" rel="external nofollow noopener" target="_blank">Stanley Building</a>) and via <a href="http://broad.io/CHBVSeminar" rel="external nofollow noopener" target="_blank">live stream</a></p>
-            <p><a href="http://broad.io/CHBVSeminar" rel="external nofollow noopener" target="_blank">Register for the event <i class="fas fa-external-link-alt"></i></a></p>
-            <p class="card-text">A fundamental property of multicellular organisms is that cells in a tissue influence each other in stereotypical ways (a cell is defined by the company it keeps). We exploited this principle to develop BANKSY, a spatial clustering algorithm that uses a cell’s neighborhood as a guide to its own identity. BANKSY also defines tissue domains and matches or outperforms all other tested methods on data from diverse FISH-, sequencing- and antibody-based SO technologies. Importantly, BANKSY is 10-1,000 times faster and 2-60 times more scalable than existing tools, and thus capable of analyzing datasets comprising &gt;2M cells. Cell morphology is a neglected aspect of spatial omics data. We developed MEDOC, an algorithm that infers the latent space of morphological variation from segmented cells or nuclei. We applied MEDOC to MERFISH data from leukemic vs. healthy bone marrow and identified both shared and divergent molecular markers of cell morphology variation. These analyses show that biologically interpretable morphological phenotypes are apparent in spatial omics data. At the organismal scale, humans are shaped by a combination of intrinsic (genetic) and extrinsic (environmental) influences. To investigate these influences and characterize human diversity, we used single cell RNA-seq to profile 1,265,624 peripheral blood mononuclear cells from 619 individuals from 7 population groups in 6 Asian countries. We uncovered profound molecular and cellular differences between these 7 groups, indicating that epidemiological studies may need fine-grained population descriptors. These included cell populations and genes implicated in disease risk and pathogenesis as well as those relevant for diagnostics. Remarkably, human variation in blood cell proportions correlated more strongly with genetic ancestry than with sex, thus making a case for including genetically diverse cohorts in population studies. More broadly, our results suggest that tailored diagnostic and therapeutic tests and strategies may be needed to fulfill the promise of Precision Medicine across the globe. </p>
+            <div class="seminar-content">
+              <p>Presenter: <a href="https://prabhakarlab.github.io/" rel="external nofollow noopener" target="_blank">Shyam Prabhakar, PhD</a>, <i>Associate Director, Spatial and Single Cell Systems, Genome Institute of Singapore; Senior Group Leader, Systems Biology and Data Analytics, Genome Institute of Singapore</i></p>
+              <p>Date: Tuesday, June 11, 2024 10:30 AM - 12:00 PM  ET</p>
+              
+              <p class="card-text">A fundamental property of multicellular organisms is that cells in a tissue influence each other in stereotypical ways (a cell is defined by the company it keeps). We exploited this principle to develop BANKSY, a spatial clustering algorithm that uses a cell’s neighborhood as a guide to its own identity. BANKSY also defines tissue domains and matches or outperforms all other tested methods on data from diverse FISH-, sequencing- and antibody-based SO technologies. Importantly, BANKSY is 10-1,000 times faster and 2-60 times more scalable than existing tools, and thus capable of analyzing datasets comprising &gt;2M cells. Cell morphology is a neglected aspect of spatial omics data. We developed MEDOC, an algorithm that infers the latent space of morphological variation from segmented cells or nuclei. We applied MEDOC to MERFISH data from leukemic vs. healthy bone marrow and identified both shared and divergent molecular markers of cell morphology variation. These analyses show that biologically interpretable morphological phenotypes are apparent in spatial omics data. At the organismal scale, humans are shaped by a combination of intrinsic (genetic) and extrinsic (environmental) influences. To investigate these influences and characterize human diversity, we used single cell RNA-seq to profile 1,265,624 peripheral blood mononuclear cells from 619 individuals from 7 population groups in 6 Asian countries. We uncovered profound molecular and cellular differences between these 7 groups, indicating that epidemiological studies may need fine-grained population descriptors. These included cell populations and genes implicated in disease risk and pathogenesis as well as those relevant for diagnostics. Remarkably, human variation in blood cell proportions correlated more strongly with genetic ancestry than with sex, thus making a case for including genetically diverse cohorts in population studies. More broadly, our results suggest that tailored diagnostic and therapeutic tests and strategies may be needed to fulfill the promise of Precision Medicine across the globe. </p>
+              
+            </div>
           </div>
         </div>
-      </div>
+  </div>
 </div>
-</div>
-<p></p>
-
-<h2>Previous seminars</h2>
-
-<p><!-- Generate cards for each prevous seminar --></p>
-<div class="grid">
 <!-- _includes/seminar.html -->
 <div class="grid-sizer"></div>
-<div class="grid-item">
-      <div class="card hoverable">
-        <div class="card-body">
-          <h3 class="card-title">Role of postmortem human brain studies in research on nervous system disorders: The dead teach the living (<i>mortui vivos docent</i>)</h3>
-          <div class="seminar-image">
+<div class="seminar">
+  <div class="grid-item">
+        <div class="card hoverable">
+          <div class="card-body">
+            <h3 class="card-title">Role of postmortem human brain studies in research on nervous system disorders: The dead teach the living (<i>mortui vivos docent</i>)</h3>
+            <div class="seminar-image">
 <figure>
 
   <picture>
@@ -229,17 +196,22 @@ document.addEventListener('DOMContentLoaded', function () {
 
 </figure>
 </div>
-          <div class="seminar-content">
-            <p>Presenter: <a href="https://www.mcleanhospital.org/profile/sabina-berretta" rel="external nofollow noopener" target="_blank">Sabina Berretta, M.D.</a>, <i>Associate Professor Psychiatry, Harvard Medical School; Director, Harvard Brain Tissue Resource Center; Director, Translational Neuroscience Laboratory; Associate Member, Broad Institute</i></p>
-            <p>Date: Friday, February 2, 2024  2:00 PM -  3:30 PM  EST</p>
-            <p>Watch the recorded seminar on <a href="https://www.youtube.com/watch?v=BO07pRl7paY&amp;ab_channel=BroadInstitute" rel="external nofollow noopener" target="_blank">YouTube</a>.</p>
-            <p class="card-text">We will discuss how brain donation and postmortem research contributes to the advancing research on brain disorders and to combating the stigma associated with them. The seminar will cover the workflow at the Harvard Brain Tissue Resource Center, factors impacting tissue performance, ongoing collaborative efforts to address BICAN project requirements and new approaches to research on postmortem human brain tissue. We will conclude by highlighting some of the projects in collaboration with Broad investigators. The talk will be followed by a 30-minute question and answer session. </p>
-            <div style="display: flex; justify-content: center;"> 
-              <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/BO07pRl7paY?si=LJujctkcoQ101xcG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+            <div class="seminar-content">
+              <p>Presenter: <a href="https://www.mcleanhospital.org/profile/sabina-berretta" rel="external nofollow noopener" target="_blank">Sabina Berretta, M.D.</a>, <i>Associate Professor Psychiatry, Harvard Medical School; Director, Harvard Brain Tissue Resource Center; Director, Translational Neuroscience Laboratory; Associate Member, Broad Institute</i></p>
+              <p>Date: Friday, February 2, 2024  2:00 PM -  3:30 PM  ET</p>
+              
+                <p>Watch the recorded seminar on <a href="https://www.youtube.com/watch?v=BO07pRl7paY&amp;ab_channel=BroadInstitute" rel="external nofollow noopener" target="_blank">YouTube</a>.</p>
+              
+              <p class="card-text">We will discuss how brain donation and postmortem research contributes to the advancing research on brain disorders and to combating the stigma associated with them. The seminar will cover the workflow at the Harvard Brain Tissue Resource Center, factors impacting tissue performance, ongoing collaborative efforts to address BICAN project requirements and new approaches to research on postmortem human brain tissue. We will conclude by highlighting some of the projects in collaboration with Broad investigators. The talk will be followed by a 30-minute question and answer session. </p>
+              
+                <div style="display: flex; justify-content: center;"> 
+                  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/BO07pRl7paY?si=LJujctkcoQ101xcG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+                </div>
+              
             </div>
           </div>
         </div>
-      </div>
+  </div>
 </div>
 </div>
 
