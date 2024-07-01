@@ -1,4 +1,4 @@
-_team/nirmala_rayan.md ---
+---
 layout: person
 title: Sadie Drouin
 email: drouin@broadinstitute.org
