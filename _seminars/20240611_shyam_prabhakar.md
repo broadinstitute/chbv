@@ -10,4 +10,6 @@ start_date: 2024-06-11 10:30:00 -0500
 end_date: 2024-06-11 12:00:00 -0500
 room: Serengeti (<a href="https://goo.gl/maps/rgrf61c96aV1ruf77">Stanley Building</a>)
 img: assets/img/shyam_prabhakar.jpg
+video_link: "https://www.youtube.com/watch?v=EJlLgYc1w_A&ab_channel=BroadInstitute"
+embed_video_link: "https://www.youtube.com/embed/EJlLgYc1w_A?si=bnPwMRq5ow5WX5lK"
 ---
