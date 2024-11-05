@@ -30,7 +30,7 @@
 
     <!-- Styles -->
     
-    <link rel="stylesheet" href="/assets/css/main.css?v=1730255939">
+    <link rel="stylesheet" href="/assets/css/main.css?v=1730843650">
 
     <link rel="canonical" href="https://brain.broadinstitute.org/seminar-series/">
     
@@ -59,6 +59,32 @@
   <body class="fixed-top-nav sticky-bottom-footer d-flex flex-column min-vh-100">
 
     <!-- Header -->    <header>
+      <!-- Banner -->
+      <div id="site-banner" class="banner" style="display: none">
+          <div class="banner_content">
+              <div class="banner_text">
+                  The next CHBV seminar is on Friday, December 6.  Register and learn more <a href="/seminar-series/">here</a>!
+              </div>
+              <button id="site-banner-close" class="banner_close" type="button">
+                  <i class="fa fa-window-close" aria-hidden="true"></i>
+              </button>
+          </div>
+      </div>
+      <script>
+      if (sessionStorage.getItem('bannerClosed') !== 'true') {
+          document.getElementById('site-banner').style.display = 'block';
+      }
+      document.addEventListener('DOMContentLoaded', function () {
+          const banner = document.getElementById('site-banner');
+          const closeButton = document.getElementById('site-banner-close');
+          // Add event listener to close button
+          closeButton.addEventListener('click', function() {
+              banner.style.display = 'none';
+              // Store the state in sessionStorage
+              sessionStorage.setItem('bannerClosed', 'true');
+          });
+      });
+      </script>
       <!-- Nav Bar -->
       <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
         <div class="container">
@@ -132,6 +158,12 @@
             <p>Our Seminar Series is a quarterly series designed to make cutting-edge neuroscience research accessible to all.  Our lineup features speakers from a variety of career stages with diverse backgrounds and expertise.  We believe in the power of diversity and inclusion, recognizing that a multitude of voices contributes to a richer scientific dialogue.</p>
 
 <p>Register for our upcoming events, read about the speakers, watch previous talks, and delve into the fascinating world of neuroscience. Join us as we connect minds, share knowledge, and pave the way for a more accessible and collaborative scientific community.</p>
+
+<h2>Upcoming seminars</h2>
+
+<p><!-- Generate cards for each prevous seminar --></p>
+<div class="grid"></div>
+<p></p>
 
 <h2>Previous seminars</h2>
 
