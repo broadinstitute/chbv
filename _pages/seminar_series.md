@@ -12,7 +12,7 @@ Register for our upcoming events, read about the speakers, watch previous talks,
 {% assign today = "now" | date: "%s" %}
 {% assign sorted_seminars = site.seminars | sort: 'end_date' | reverse %}
 
-{% assign any_upcoming_seminars = 0 %}
+{% assign any_upcoming_seminars = 1 %}
 
 {% if any_upcoming_seminars == 1 %}
 
