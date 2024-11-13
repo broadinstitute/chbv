@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: NIH BRAIN Initiative Launches Projects to Develop Cell Atlases and Molecular Tools for Cell Access 
+title: NIH BRAIN Initiative launches projects to develop cell atlases and molecular tools for cell access 
 date: 2022-09-22 00:00:00-0400
 img: /assets/img/braincontest2021.png
 img_alt: "NIH logo in front of a brain"
