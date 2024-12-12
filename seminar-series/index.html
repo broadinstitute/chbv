@@ -30,7 +30,7 @@
 
     <!-- Styles -->
     
-    <link rel="stylesheet" href="/assets/css/main.css?v=1731475826">
+    <link rel="stylesheet" href="/assets/css/main.css?v=1734034997">
 
     <link rel="canonical" href="https://brain.broadinstitute.org/seminar-series/">
     
@@ -59,32 +59,6 @@
   <body class="fixed-top-nav sticky-bottom-footer d-flex flex-column min-vh-100">
 
     <!-- Header -->    <header>
-      <!-- Banner -->
-      <div id="site-banner" class="banner" style="display: none">
-          <div class="banner_content">
-              <div class="banner_text">
-                  The next CHBV seminar is on Friday, December 6.  Register and learn more <a href="/seminar-series/">here</a>!
-              </div>
-              <button id="site-banner-close" class="banner_close" type="button">
-                  <i class="fa fa-window-close" aria-hidden="true"></i>
-              </button>
-          </div>
-      </div>
-      <script>
-      if (sessionStorage.getItem('bannerClosed') !== 'true') {
-          document.getElementById('site-banner').style.display = 'block';
-      }
-      document.addEventListener('DOMContentLoaded', function () {
-          const banner = document.getElementById('site-banner');
-          const closeButton = document.getElementById('site-banner-close');
-          // Add event listener to close button
-          closeButton.addEventListener('click', function() {
-              banner.style.display = 'none';
-              // Store the state in sessionStorage
-              sessionStorage.setItem('bannerClosed', 'true');
-          });
-      });
-      </script>
       <!-- Nav Bar -->
       <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
         <div class="container">
@@ -159,7 +133,7 @@
 
 <p>Register for our upcoming events, read about the speakers, watch previous talks, and delve into the fascinating world of neuroscience. Join us as we connect minds, share knowledge, and pave the way for a more accessible and collaborative scientific community.</p>
 
-<h2>Upcoming seminars</h2>
+<h2>Previous seminars</h2>
 
 <p><!-- Generate cards for each prevous seminar --></p>
 <div class="grid">
@@ -189,22 +163,15 @@
 </div>
             <div class="seminar-content">
               <p>Presenter: <a href="https://lcn.martinos.org/people/fischl/" rel="external nofollow noopener" target="_blank">Bruce Fischl, PhD</a>, <i>Professor of Radiology, Harvard Medical School; Neuroscientist, Massachusetts General Hospital; Director, Computational Core, Athinoula A. Martinos Center for Biomedical Imaging, Massachusetts General Hospital</i></p>
-              <p>Date: Friday, December 6, 2024  1:00 PM -  2:30 PM  EST</p>
-              <p>Location: Monadnock (<a href="https://maps.app.goo.gl/AoeEG2QZwfj6Q8zQ6" rel="external nofollow noopener" target="_blank">Richard N. Merkin Building</a>) and via <a href="http://broad.io/CHBVSeminar" rel="external nofollow noopener" target="_blank">live stream</a></p>
-              <p><a href="http://broad.io/CHBVSeminar" rel="external nofollow noopener" target="_blank">Register for the event <i class="fas fa-external-link-alt"></i></a></p>
-              <p class="card-text">Bruce will discuss technical advancements in deep learning applied to neuroimaging, particularly addressing the challenges posed by the domain gap, which affects the performance of algorithms trained on specific magnetic resonance imaging (MRI) image types. To overcome this, his group has developed synthetic image synthesis techniques that enable networks to learn without bias from real MRI data, facilitating supervised learning in cases where manual annotation is challenging. He will review his results from a five-year project focused on creating tools for analyzing data across different scales, from micron-level microscopy to whole-brain MRI, aimed at constructing a detailed cellular and connectional atlas of the human brain. </p>
+              <p>Date: Friday, December 6, 2024  1:00 PM -  2:30 PM  ET</p>
+              
+              <p class="card-text">Dr. Fischl discussed technical advancements in deep learning applied to neuroimaging, particularly addressing the challenges posed by the domain gap, which affects the performance of algorithms trained on specific magnetic resonance imaging (MRI) image types. To overcome this, his group has developed synthetic image synthesis techniques that enable networks to learn without bias from real MRI data, facilitating supervised learning in cases where manual annotation is challenging. He reviewed his results from a five-year project focused on creating tools for analyzing data across different scales, from micron-level microscopy to whole-brain MRI, aimed at constructing a detailed cellular and connectional atlas of the human brain. </p>
+              
             </div>
           </div>
         </div>
   </div>
 </div>
-</div>
-<p></p>
-
-<h2>Previous seminars</h2>
-
-<p><!-- Generate cards for each prevous seminar --></p>
-<div class="grid">
 <!-- _includes/seminar.html -->
 <div class="grid-sizer"></div>
 <div class="seminar">
@@ -276,7 +243,7 @@
               
                 <p>Watch the recorded seminar on <a href="https://www.youtube.com/watch?v=BO07pRl7paY&amp;ab_channel=BroadInstitute" rel="external nofollow noopener" target="_blank">YouTube</a>.</p>
               
-              <p class="card-text">We will discuss how brain donation and postmortem research contributes to the advancing research on brain disorders and to combating the stigma associated with them. The seminar will cover the workflow at the Harvard Brain Tissue Resource Center, factors impacting tissue performance, ongoing collaborative efforts to address BICAN project requirements and new approaches to research on postmortem human brain tissue. We will conclude by highlighting some of the projects in collaboration with Broad investigators. The talk will be followed by a 30-minute question and answer session. </p>
+              <p class="card-text">Dr. Berretta discussed how brain donation and postmortem research contributes to the advancing research on brain disorders and to combating the stigma associated with them. The seminar covered the workflow at the Harvard Brain Tissue Resource Center, factors impacting tissue performance, ongoing collaborative efforts to address BICAN project requirements and new approaches to research on postmortem human brain tissue. She concluded by highlighting some of the projects in collaboration with Broad investigators. The talk was followed by a 30-minute question and answer session. </p>
               
                 <div style="display: flex; justify-content: center;"> 
                   <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/BO07pRl7paY?si=LJujctkcoQ101xcG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
