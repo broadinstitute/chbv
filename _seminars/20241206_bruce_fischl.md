@@ -10,4 +10,7 @@ start_date: 2024-12-06 13:00:00 -0400
 end_date: 2024-12-06 14:30:00 -0400
 room: Monadnock (<a href="https://maps.app.goo.gl/AoeEG2QZwfj6Q8zQ6">Richard N. Merkin Building</a>)
 img: assets/img/bruce_fischl.jpg
+video_link: "https://www.youtube.com/watch?v=0jmTytJAV8w&ab_channel=BroadInstitute"
+embed_video_link: "https://www.youtube-nocookie.com/embed/0jmTytJAV8w?si=p-XjUqLPelt84yhl"
+
 ---
