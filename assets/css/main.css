@@ -949,6 +949,31 @@ progress::-moz-progress-bar {
   padding-right: 10px;
 }
 
+/* Category Buttons */
+.category-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.category-button {
+  text-decoration: none;
+  background-color: var(--global-card-bg-color);
+  color: var(--global-theme-color);
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  display: inline-block;
+  transition: background 0.3s;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.category-button:hover {
+  background-color: #585f65;
+}
+
 /*******************************************************************************
  * Style overrides for distill blog posts.
  ******************************************************************************/
