@@ -5,9 +5,9 @@ title: Seminar Series
 title_long: Seminar Series
 nav: false
 ---
-Our Seminar Series is a quarterly series designed to make cutting-edge neuroscience research accessible to all.  Our lineup features speakers from a variety of career stages with diverse backgrounds and expertise.  We believe in the power of diversity and inclusion, recognizing that a multitude of voices contributes to a richer scientific dialogue. 
+Our seminar series is a quarterly series designed to make cutting-edge neuroscience research available to all.  Our lineup features speakers from a variety of career stages with varied backgrounds and expertise.  We recognize that a multitude of voices contributes to a richer scientific dialogue. 
 
-Register for our upcoming events, read about the speakers, watch previous talks, and delve into the fascinating world of neuroscience. Join us as we connect minds, share knowledge, and pave the way for a more accessible and collaborative scientific community.
+Register for our upcoming events, read about the speakers, watch previous talks, and delve into the fascinating world of neuroscience. Join us as we connect minds, share knowledge and pave the way for a more open and collaborative scientific community.
 
 {% assign today = "now" | date: "%s" %}
 {% assign sorted_seminars = site.seminars | sort: 'end_date' | reverse %}

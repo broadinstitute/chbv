@@ -7,7 +7,7 @@ nav: true
 nav_order: 3
 ---
 
-The human brain is among the most complex biological objects known: more than 100 billion highly specialized cells, connected in specific ways, cooperate to engage in problem-solving, observation, empathy, insight, and direction of the human body. And yet, one of the most striking aspects of human experience involves variation in brain function: no two individuals think or behave in the same way. This diversity drives humanity’s creativity and resourcefulness; it also shapes each person’s vulnerability to neurodevelopmental, neuropsychiatric and neurological disorders, through mechanisms that are still unknown but critical to understand. To fully understand the brain’s function and vulnerabilities, we must know and be instructed by its biological diversity across people.
+The human brain is among the most complex biological objects known: more than 100 billion highly specialized cells, connected in specific ways, cooperate to engage in problem-solving, observation, empathy, insight, and direction of the human body. And yet, one of the most striking aspects of human experience involves variation in brain function: no two individuals think or behave in the same way. This variation drives humanity’s creativity and resourcefulness; it also shapes each person’s vulnerability to neurodevelopmental, neuropsychiatric and neurological disorders, through mechanisms that are still unknown but critical to understand. To fully understand the brain’s function and vulnerabilities, we must know and be instructed by its biological variation across people.
 
 <img src="/assets/img/neuron3.webp" alt="Artist rendering of a network of neurons" height="100%" width="100%" display="block">
 
@@ -35,6 +35,10 @@ We will estimate the cell type abundance and spatial distribution, expression, a
 Using the cell atlas resource, we will examine how genetic variation shapes the biology of cell types, brain tissue and brain vulnerability.
 
 <img src="/assets/img/dna2mental_state.png" alt="Schematic of how DNA relates to brain function" height="100%" width="100%" display="block" margin-left="auto" margin-right="auto">
+
+Our atlas of human brain variation aims to capture the variety of normal human brain biology in a suitably open way. Our objective is to sample variation broadly, not to compare groups. A pitfall we must avoid is to appear to make (or enable others to make) conclusions about any groups from what will likely be a small sample from a large, neurodiverse population.
+
+We believe that the point of including a varied set of donors is not to compare groups, but rather to define the range of normal human brain biology in a suitably open way. This ethic will be reflected in the analyses we do and the analyses we choose not to do.
 
 The successful completion of this research will deliver an essential data resource for cellular, molecular, genetic and translational neuroscience.  The work will also  expand our understanding of the ways the human brain varies from person to person and provide powerful new ways to learn from inter-individual variation in brain phenotypes.
 

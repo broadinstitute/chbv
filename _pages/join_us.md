@@ -10,7 +10,7 @@ display_categories: [Open positions]
 
 <!-- pages/join_us.md -->
 <div>
-<p>The Center is committed to assembling a team with diverse perspectives, while fostering an inclusive environment where all members flourish.  View our open opportunities below.</p>
+<p>The Center is committed to assembling a team with a variety of perspectives, while fostering a welcoming environment where all members flourish.</p>
 
 <p>We're always looking for outstanding applicants who share our passion for understanding brain function and its dysfunction in disease. If there are no open roles that fit your talents, please send your CV and cover letter to <a href="mailto:brain@broadinstitute.org">brain@broadinstitute.org</a>. Postdoctoral applicants are especially encouraged to apply.</p>
 </div>
