@@ -6,7 +6,7 @@ description: Lauren is a Research Associate II focused on organizing and optimiz
 img: assets/img/lauren_macaisa.jpg
 importance: 7
 category: Alumni
-new_position: Master's student, Northeastern University
+new_position: Master's Student, Northeastern University
 linked_in: https://www.linkedin.com/in/la-macaisa/
 years: 2023-2024
 bio_long: |
