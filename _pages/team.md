@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Team
-title_long: Team
+title_long: Our team
 permalink: /team/
 nav: true
 nav_order: 2
