@@ -48,7 +48,7 @@ def _update_team_member_importance(team_fns):
         new_importance = i + 1 # 1-based
         found = 0
         for line in fileinput.input(team_fn, inplace=True):
-            m = re.search('^importance:\s*(.*)$', line)
+            m = re.search(r'^importance:\s*(.*)$', line)
             if not (m is None): 
                 found = 1
                 old_importance = m.group(1) # could be blank
