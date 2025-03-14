@@ -3,7 +3,8 @@ layout: job
 title: Research Associate I
 img: assets/img/research_associate.jpg
 importance: 1
-category: Open positions
+category: Closed positions
+redirect_to: "/join-us/"
 ---
 
 <a href="https://broadinstitute.avature.net/en_US/careers/JobDetail/Cambridge-Massachusetts-United-States-Early-Career-Researchers-Research-Associate-I-Broad-wide-openings/18800">Apply now <i class="fas fa-external-link-alt"></i></a>
