@@ -4,6 +4,7 @@ title: Computational Associate I
 img: assets/img/computational_scientist.jpg
 importance: 2
 category: Closed positions
+redirect_to: "/join-us/"
 ---
 
 <a href="https://broadinstitute.avature.net/en_US/careers/JobDetail/Early-Career-Researchers-Computational-Associate-I-Broad-wide-openings/18857">Apply now <i class="fas fa-external-link-alt"></i></a>

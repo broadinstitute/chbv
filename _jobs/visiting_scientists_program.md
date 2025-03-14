@@ -4,6 +4,7 @@ title: Visiting Scientist Program
 img: assets/img/two_scientists_writing_on_glass.jpg
 importance: 4
 category: Closed positions
+redirect_to: "/join-us/"
 ---
 
 The Visiting Scientist Program is a flexible-length sabbatical to collaborate, network, and share expertise among researchers and the Center as well as foster diversity and inclusion in the scientific community.  The program provides a supportive environment and access to state-of-the-art research facilities. 

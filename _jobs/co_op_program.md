@@ -4,6 +4,7 @@ title: Co-op Program
 img: assets/img/scientists_loading_an_instrument.jpg
 importance: 3
 category: Closed positions
+redirect_to: "/join-us/"
 ---
 
 Our co-op program is a unique 6-month opportunity for undergraduates to immerse themselves in cutting-edge research while receiving financial support and college credit.  

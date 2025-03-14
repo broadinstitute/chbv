@@ -5,6 +5,7 @@ description: The Macosko Lab is seeking a computational biologist to work with d
 img: assets/img/computational_scientist.jpg
 importance: 1
 category: Closed positions
+redirect_to: "/join-us/"
 ---
 
 <a href="https://broadinstitute.wd1.myworkdayjobs.com/en-US/broad_institute/details/Computational-Biologist_6206/">Apply now <i class="fas fa-external-link-alt"></i></a>
