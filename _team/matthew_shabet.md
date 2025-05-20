@@ -10,7 +10,7 @@ description: Matthew is an associate computational biologist working in the Maco
 
 img: assets/img/matthew_shabet.jpg
 
-importance: 14
+importance: 16
 category: Computational Analysis
 
 bio_long: |

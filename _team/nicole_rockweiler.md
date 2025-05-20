@@ -10,7 +10,7 @@ description: Nicole is a postdoctoral associate in Steven McCarroll's lab and is
 
 img: assets/img/nicole_rockweiler.jpg
 
-importance: 13
+importance: 15
 category: Computational Analysis
 
 bio_long: |
