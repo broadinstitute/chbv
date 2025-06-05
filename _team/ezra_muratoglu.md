@@ -1,7 +1,7 @@
 ---
 layout: person
 title: Ezra Muratoglu, MS
-email: 
+email: emuratog@broadinstitute.org
 description: Ezra is a computational associate at the Center for Human Brain Variation. He is interested in complex, self-organizing systems and numerical methods for data analysis, particularly spectral methods ...
 img: assets/img/ezra_muratoglu.jpg
 importance: 11
