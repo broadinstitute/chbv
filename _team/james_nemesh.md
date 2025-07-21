@@ -10,7 +10,7 @@ description: Jim is a Principal Software Engineer at the Broad Institute and a M
 
 img: assets/img/james_nemesh.jpg
 
-importance: 12
+importance: 13
 category: Computational Analysis
 
 bio_long: |
