@@ -31,7 +31,7 @@ The Center's research goals are to:
 Please see our [research page](/research/) for more information.
 
 
-<img src="/assets/img/BroadStockImage023.jpg" alt="Scientist looking at sequencing flow cell" height="100%" width="100%" display="block">
+<img src="/assets/img/scientist-glass-slide.jpg" alt="Scientist wearing a lab coat, safety goggles, and gloves, examining a glass slide in a lab." height="100%" width="100%" display="block">
 ## Who we are
 We are based at the [Broad Institute of MIT & Harvard](https://www.broadinstitute.org/).  Our interdisciplinary [team](/team/) of neuroscientists, human geneticists, computational biologists, and software engineers is led by [Steve McCarroll](/team/steve_mccarroll/), [Evan Macosko](/team/evan_macosko/), and [Kiku Ichihara](/team/kiku_ichihara/). The Center is funded by the [NIH BRAIN initiative](https://braininitiative.nih.gov/). 
 
@@ -44,4 +44,4 @@ Our center is committed to assembling a project team with a variety of perspecti
 - Innovation 
 - Exploration 
 
-<img src="/assets/img/BroadStockImage021.jpg" alt="People talking and writing on a wall" height="100%" width="100%" display="block">
+<img src="/assets/img/team-collaboration-glassboard.jpg" alt="Two researchers collaborating and writing on a glass board covered in notes. A laptop and TV are in background." height="100%" width="100%" display="block">
