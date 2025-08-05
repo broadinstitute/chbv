@@ -15,7 +15,7 @@ display_categories: [Open positions]
 <p>We're always looking for outstanding applicants who share our passion for understanding brain function and its dysfunction in disease. If there are no open roles that fit your talents, please send your CV and cover letter to <a href="mailto:brain@broadinstitute.org">brain@broadinstitute.org</a>. Postdoctoral applicants are especially encouraged to apply.</p>
 </div>
 
-{% assign any_open_jobs = 0 %}
+{% assign any_open_jobs = 1 %}
 
 {% if any_open_jobs == 1 %}
 
